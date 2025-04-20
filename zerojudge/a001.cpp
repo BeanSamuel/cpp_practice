@@ -32,12 +32,13 @@ const int MXN = 1e8; const int N = MXN + 10;
 using namespace std;
 
 void solve(){
-    ll n; cin >> n;
-    cout << 2*n*n - 4*n + 4 << endl;
+    string s; cin>>s;
+    cout<<"hello, "<<s<<endl;
 }
 
 
 signed main(){
+    fastio;
 	int t=1; //cin>>t;
 	while(t--) solve();
 }
