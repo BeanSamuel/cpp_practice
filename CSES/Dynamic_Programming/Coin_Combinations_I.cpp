@@ -36,10 +36,10 @@ void solve(){
     vec<ll> v(n);
     for(ll &i:v) cin>>i;
     vec<ll> dp(x+1,0);
-    for(auto i:v) if(i<=x) dp[i] = 1;
+    dp[0] = 1;
     for(int i=1;i<=x;i++){
         for(auto j:v) {
-            if(i>j) pmod(dp[i], dp[i-j]);
+            if(i>=j) pmod(dp[i], dp[i-j]);
         }
     }
     cout<<dp[x]%MOD<<endl;
