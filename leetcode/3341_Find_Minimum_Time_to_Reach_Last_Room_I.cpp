@@ -22,7 +22,7 @@ class Solution {
         int minTimeToReach(vector<vector<int>>& moveTime) {
             int n = moveTime.size(), m = moveTime[0].size();
             vector<vector<int>> v(n, vector<int>(m, INT_MAX)); 
-            priority_queue<pair<int, pair<int,int>>> pq;
+            priority_queue<pair<int, pair<int,int>>, vector<pair<int, pair<int,int>>>, greater<pair<int, pair<int,int>>>> pq;
             v[0][0] = 0;
             pq.push({0,{0,0}});
             while(!pq.empty()) {
