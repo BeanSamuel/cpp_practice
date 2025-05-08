@@ -1,6 +1,6 @@
 /*
-Question: 
-Link: 
+Question: 3341. Find Minimum Time to Reach Last Room I
+Link: https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i
 */
 
 #include <bits/stdc++.h>
