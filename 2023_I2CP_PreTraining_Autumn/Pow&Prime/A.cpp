@@ -38,8 +38,7 @@ ll mypow(ll a, ll b, ll c) {
 
 void solve(){
     int a,b,mod; cin>>a>>b>>mod;
-	a %= mod;
-	cout<<mypow(a,b,mod)<<endl;
+	cout<<mypow(a%mod,b,mod)<<endl;
 }
 
 
