@@ -31,7 +31,7 @@ const int MXN = 1e8; const int N = MXN + 10;
 
 using namespace std;
 
-struct Binary_Indexed_Tree {
+struct Binary_Indexed_Tree { // 單點更新 + 區間查詢
     int n;
     vec<ll> bit;
 
@@ -50,21 +50,12 @@ struct Binary_Indexed_Tree {
         }
     }
 
-    void range_update(int l, int r, int val) {
-        update(l, val);
-        update(r+1, -val);
-    }
-
     ll query(int x) {
         ll ret = 0;
         for(; x>0; x-=lowbit(x)) {
             ret += bit[x];
         }
         return ret;
-    }
-
-    ll range_query(int l, int r) {
-        return query(r) - query(l-1);
     }
 
 };
