@@ -31,7 +31,8 @@ const int MXN = 1e8; const int N = MXN + 10;
 
 using namespace std;
 
-struct Binary_Indexed_Tree { // 單點更新 + 區間查詢
+// 單點更新 + 區間查詢
+struct Binary_Indexed_Tree { 
     int n;
     vec<ll> bit;
 
@@ -54,6 +55,43 @@ struct Binary_Indexed_Tree { // 單點更新 + 區間查詢
         ll ret = 0;
         for(; x>0; x-=lowbit(x)) {
             ret += bit[x];
+        }
+        return ret;
+    }
+
+};
+
+// 區間更新 + 單點查詢(差分)
+template<typename T>
+class Fenwick {
+private:
+    int n;
+    vec<T> bit;
+    static int lowbit(int x) { return x&-x; }
+
+public:
+    explicit Fenwick(int _n)
+        : n(_n), bit(n+1, T(0)) {}
+    
+    explicit Fenwick(const vec<T>& a)
+        : Fenwick((int)a.size() - 1) {
+            for(int i=1;i<=n;i++) range_update(i,i,a[i]);
+        }
+
+    void update(int idx, T val) {
+        for(int i=idx;i<=n;i+=lowbit(i)) {
+            bit[i] += val;
+        }
+    }
+    void range_update(int l, int r, T val) {
+        update(l, val);
+        update(r+1, -val);
+    }
+
+    T query(int idx) { 
+        T ret = 0;
+        for(;idx>0;idx-=lowbit(idx)) {
+            ret += bit[idx];
         }
         return ret;
     }
