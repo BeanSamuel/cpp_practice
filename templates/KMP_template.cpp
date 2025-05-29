@@ -34,7 +34,7 @@ using namespace std;
 // vector<int> kmp_all_pos(const string &s, const string &p) { // return all start positions
 int kmp_times(const string &s, const string &p) { // find p in s 
     int n = siz(s), m = siz(p);
-    vec<int> f(m, -1);
+    vec<int> f(m, -1); // f[m-1]+1為前後綴最長長度
     for(int i = 1; i < m; i++) {
         int j = f[i-1];
         while(j != -1 && p[i] != p[j+1]) j = f[j];
