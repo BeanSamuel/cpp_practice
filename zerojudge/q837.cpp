@@ -29,17 +29,34 @@ ll POW(ll a, ll b) {ll res=1; do{if(b%2)tmod(res,a);tmod(a,a);}while(b>>=1); ret
 const int MXN = 1e8; const int N = MXN + 10;
 #define pii pair<int,int>
 
+void shift( string& word, int num ) {
+    int len = word.length();
+    num = ((num % len) + len) % len;
+    if (num == 0) return;
+    word = word.substr(len - num) + word.substr(0, len - num);
+}
+
 void solve(){
-    int k; cin>>k;
-    int pos = 0;
-    int x1, x2, y1, y2; cin>>x1>>y1>>x2>>y2;
-    while(k > 0) {
-        pos += k;
-        if(pos%x1==0) k-=y1;
-        if(k<=0) break;
-        if(pos%x2==0) k-=y2;
+    int m, n, k; cin>>m>>n>>k;
+    string word[m];
+    for(int i=0;i<m;i++) cin>>word[i];
+    int ans =0;
+    while(k--) {
+        
+        for(int i=0;i<m;i++) {
+            int s; cin>>s; shift(word[i], s);
+        }
+        for(int i=0;i<n;i++) {
+            map<char, int> mp;
+            for(int j=0;j<m;j++) {
+                mp[word[j][i]]++;
+            }
+            int mx = 0;
+            for(auto [u,v]:mp) {chmax(mx,v);}
+            ans += mx;
+        }
     }
-    cout<<pos<<endl;
+    cout<<ans<<endl;
 }
 
 
