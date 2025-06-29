@@ -30,10 +30,9 @@ void tmod(ll &a, ll b) {a = (a*b)%MOD;}
 ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a%b);}
 ll POW(ll a, ll b) {ll res=1; do{if(b%2)tmod(res,a);tmod(a,a);}while(b>>=1); return res;}
 
-const int MXN = 1e8; const int N = MXN + 10;
+const int MXN = 1e9; const int N = MXN + 10;
 #define pii pair<int,int>
 
-using namespace std;
 
 void solve(){
 
