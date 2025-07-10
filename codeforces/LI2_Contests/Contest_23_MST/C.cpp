@@ -1,6 +1,6 @@
 /*
-Question: E. Oil Business
-Link: https://codeforces.com/group/jtU6D2hVEi/contest/533286/problem/E
+Question: C. Minimum Spanning Tree
+Link: https://codeforces.com/group/jtU6D2hVEi/contest/533286/problem/C
 */
 #include <bits/stdc++.h>
 using namespace std;
