@@ -1,6 +1,6 @@
 /*
-Question: E. Oil Business
-Link: https://codeforces.com/group/jtU6D2hVEi/contest/533286/problem/E
+Question: F. GCD Unites
+Link: https://codeforces.com/group/jtU6D2hVEi/contest/533286/problem/F
 */
 #include <bits/stdc++.h>
 using namespace std;
