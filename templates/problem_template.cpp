@@ -9,6 +9,7 @@ using namespace std;
 #define PB push_back
 #define siz(v) ((int)v.size())  
 #define ALL(x) x.begin(), x.end()
+#define rall(x) x.rbegin(),x.rend()
 
 template<typename T> using vec = vector<T>;
 template <class T> bool chmin(T &a, T b) { return (b < a and (a = b, true)); }
