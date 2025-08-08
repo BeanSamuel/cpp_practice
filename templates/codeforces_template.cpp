@@ -34,7 +34,7 @@ ll POW(ll a, ll b) {ll res=1; do{if(b%2)tmod(res,a);tmod(a,a);}while(b>>=1); ret
 
 const int MXN = 1e9; const int N = MXN + 10;
 #define pii pair<int,int>
-
+#define pll pair<ll, ll>
 
 void solve(){
 
