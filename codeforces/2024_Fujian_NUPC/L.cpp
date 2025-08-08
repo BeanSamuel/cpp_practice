@@ -1,6 +1,6 @@
 /*
-Question: A. Crazy Yesterday
-Link: https://codeforces.com/gym/105168/problem/A
+Question: L. Terabyte Connection
+Link: https://codeforces.com/gym/105168/problem/L
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -34,13 +34,19 @@ ll POW(ll a, ll b) {ll res=1; do{if(b%2)tmod(res,a);tmod(a,a);}while(b>>=1); ret
 
 const int MXN = 1e9; const int N = MXN + 10;
 #define pii pair<int,int>
+#define pll pair<ll ,ll>
 
-
-void solve(){
+void solve() {
     int n; cin>>n;
-    cout<< ((n-1==0) ? 7 : (n-1)) <<endl;
+    ll p = 0, f = 0;
+    vec<pll> v(n);
+    for(auto &i:v) {
+        cin>>i.F>>i.S;
+        p = max(i.F, p);
+        f = max(f, i.F+i.S);
+    }
+    cout<<p<<" "<<f<<endl;
 }
-
 
 signed main(){
     fastio;
