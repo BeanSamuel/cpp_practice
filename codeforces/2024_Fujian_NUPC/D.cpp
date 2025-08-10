@@ -1,6 +1,6 @@
 /*
-Question: 
-Link: 
+Question: D. XOR Pairing
+Link: https://codeforces.com/gym/105168/problem/D
 */
 #include <bits/stdc++.h>
 using namespace std;
