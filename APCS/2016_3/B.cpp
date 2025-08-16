@@ -1,6 +1,6 @@
 /*
 Question: 矩陣翻轉
-Link: https://zerojudge.tw/ShowProblem?problemid=b266
+Link: https://zerojudge.tw/ShowProblem?problemid=b965
 */
 
 #include <bits/stdc++.h>
@@ -55,8 +55,9 @@ void solve(){
         }
     }
     cout<<r<<" "<<c<<endl;
-	for(auto i: v) { 
-        for(auto j: i) cout<<j<<" "; 
+    for(auto i: v) {
+        cout<<i[0];
+        for(int j=1;j<siz(i);j++) cout<<" "<<i[j];
         cout<<endl;
     }
 }
