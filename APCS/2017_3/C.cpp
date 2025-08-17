@@ -1,6 +1,6 @@
 /*
-Question: 小群體
-Link: https://zerojudge.tw/ShowProblem?problemid=c291
+Question: 數字龍捲風
+Link: https://zerojudge.tw/ShowProblem?problemid=c292
 */
 
 #include <bits/stdc++.h>
