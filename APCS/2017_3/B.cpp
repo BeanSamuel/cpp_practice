@@ -1,6 +1,6 @@
 /*
-Question: 
-Link: 
+Question: 小群體
+Link: https://zerojudge.tw/ShowProblem?problemid=c291
 */
 
 #include <bits/stdc++.h>
