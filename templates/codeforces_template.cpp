@@ -36,6 +36,16 @@ const int MXN = 1e9; const int N = MXN + 10;
 #define pii pair<int,int>
 #define pll pair<ll, ll>
 
+#ifdef LOCAL
+template<class... T> void dbg(T...x) {
+    char e{};
+    ((cerr << e << x, e = ' '),...);
+}
+#define debug(x...) dbg(#x, '=',x,'\n')
+#else 
+#define debug(...) ((void)0)
+#endif
+
 void solve(){
 
 }
