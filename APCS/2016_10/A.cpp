@@ -1,6 +1,6 @@
 /*
-Question: 
-Link: 
+Question: 三角形辨別
+Link: https://zerojudge.tw/ShowProblem?problemid=c294
 */
 
 #include <bits/stdc++.h>
