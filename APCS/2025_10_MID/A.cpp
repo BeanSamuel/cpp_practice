@@ -1,0 +1,92 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define endl '\n'
+#define fastio ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+#define F first
+#define S second
+#define EB emplace_back	
+#define PB push_back
+#define siz(v) ((int)v.size())  
+#define ALL(x) x.begin(), x.end()
+#define rall(x) x.rbegin(),x.rend()
+
+template<typename T> using vec = vector<T>;
+template <class T> bool chmin(T &a, T b) { return (b < a and (a = b, true)); }
+template <class T> bool chmax(T &a, T b) { return (a < b and (a = b, true)); }
+template <class T> inline constexpr T inf = numeric_limits<T>::max() / 2;
+
+const int MOD =  998244353;
+const double PI = 3.14159265358;
+const double EPS = 1e-9;
+const int xx[8] = {0,1,0,-1,1,1,-1,-1}; const int yy[8] = {1,0,-1,0,1,-1,-1,1};
+
+void pmod(ll &a, ll b) {a = (a+b)%MOD;}
+void mmod(ll &a, ll b) {a = (a-b+MOD)%MOD;} 
+void tmod(ll &a, ll b) {a = (a*b)%MOD;}
+ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a%b);}
+ll POW(ll a, ll b) {ll res=1; do{if(b%2)tmod(res,a);tmod(a,a);}while(b>>=1); return res;}
+
+const int MXN = 1e8; const int N = MXN + 10;
+#define pii pair<int,int>
+#define pll pair<ll, ll>
+
+#ifdef LOCAL
+template<class... T> void dbg(T...x) {
+    char e{};
+    ((cerr << e << x, e = ' '),...);
+}
+#define debug(x...) dbg(#x, '=',x,'\n')
+#else 
+#define debug(...) ((void)0)
+#endif
+
+void solve(){
+    int r, c, d; cin>>r>>c>>d;
+    vec<vec<int>> v(r, vec<int>(c, d)), dino(r, vec<int>(c, 0));
+
+    int k; cin>>k;
+    for(int i=0;i<k;i++) {
+        int x, y; cin>>x>>y;
+        dino[x][y]++;
+    }
+
+    int m; cin>>m;
+    while(m--) {
+        int a, b, s, x; cin>>a>>b>>s>>x;
+        s>>=1;
+        bool chk = true;
+        for(int i=max(0,a-s);i<=min(a+s,r-1);i++) {
+            for(int j=max(0,b-s);j<=min(b+s,c-1);j++) {
+                if(dino[i][j] > 0) {
+                    k-=dino[i][j]; dino[i][j]=0; chk = false;
+                }
+            }
+        }
+        if(chk) {
+            for(int i=max(0,a-s);i<=min(a+s,r-1);i++) {
+                for(int j=max(0,b-s);j<=min(b+s,c-1);j++) {
+                    v[i][j] -= x;
+                }
+            }
+        }
+    }
+
+    int mx = -1e9, mn = 1e9;
+
+    for(int i=0;i<r;i++) {
+        for(int j=0;j<c;j++) {
+            chmax(mx, v[i][j]);
+            chmin(mn, v[i][j]);
+        }
+    }
+    cout<<mx<<" "<<mn<<" "<<k<<endl;
+
+}
+
+
+signed main(){
+    fastio;
+	int t=1; //cin>>t;
+	while(t--) solve();
+}
