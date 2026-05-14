@@ -41,20 +41,45 @@ template<class... T> void dbg(T...x) {
 #define debug(...) ((void)0)
 #endif
 
+
+class DSU {
+    public:
+        vec<int> f, sz;
+        DSU(int n) {
+            f.resize(n+1);
+            for(int i=0;i<=n;i++) f[i] = i;
+        }
+        int find(int x) {
+            if(f[x] == x) return x;
+            f[x] = find(f[x]);
+            return f[x];
+        }
+        void merge(int x, int y) {
+            x = find(x);
+            y = find(y);
+            if(x == y) return;
+            f[x] = y;
+        }
+};
+
 void solve(){
     int n;
     while(cin>>n) {
         vec<pii> v(n);
-        for(auto &i: v) cin>>i.F>>i.S;
+        int maxdeadline = -1;
+        for(auto &i: v) {
+            cin>>i.F>>i.S;
+            maxdeadline = max(maxdeadline, i.F);
+        }
         sort( ALL(v),[](pii a, pii b){ return a.S>b.S; } );
-        vec<bool> record(10005, false);
+        DSU dsu(maxdeadline);        
         int ans = 0;
         for(auto [deadline, profit] : v) {
-            while(deadline && record[deadline]) deadline--;
-            if(deadline) {
-                record[deadline] = true;
+            int day = dsu.find(deadline);
+            if(day > 0) {
                 ans += profit;
-            }
+                dsu.merge(day, day-1);
+            } 
         }
         cout<<ans<<endl;
     }
