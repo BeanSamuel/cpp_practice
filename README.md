@@ -13,7 +13,7 @@ If you're looking for elegant solutions, you're in the wrong place. But if you e
 |------|------:|
 | 🧩 Problems suffered through | **380+** |
 | 📝 Total `.cpp` files (incl. templates) | **399** |
-| 💾 Commits of regret | **389** |
+| 💾 Commits of regret | **391** |
 | 📅 In the trenches since | **2025-04-20** |
 | 🗂️ Judges & contest archives | **8** |
 | 🛠️ Battle-tested templates | **14** |
