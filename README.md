@@ -11,9 +11,9 @@ If you're looking for elegant solutions, you're in the wrong place. But if you e
 
 | Stat | Value |
 |------|------:|
-| 🧩 Problems suffered through | **380+** |
-| 📝 Total `.cpp` files (incl. templates) | **402** |
-| 💾 Commits of regret | **397** |
+| 🧩 Problems suffered through | **390+** |
+| 📝 Total `.cpp` files (incl. templates) | **413** |
+| 💾 Commits of regret | **409** |
 | 📅 In the trenches since | **2025-04-20** |
 | 🗂️ Judges & contest archives | **8** |
 | 🛠️ Battle-tested templates | **14** |
@@ -26,7 +26,7 @@ A curated tour of the online judges and contest archives that have personally wr
 |--------|-------:|------------|
 | ⚔️ Codeforces | 129 | Rounds, Educational & ICPC regionals — the daily grind |
 | 🇫🇮 CSES | 88 | The classic problem set, one category at a time (see below) |
-| 🏯 ZeroJudge | 53 | Taiwan's finest gauntlet of WA verdicts |
+| 🏯 ZeroJudge | 64 | Taiwan's finest gauntlet of WA verdicts |
 | 🎓 APCS | 34 | Real exam past papers + simulations |
 | 🏆 YTP | 31 | Preliminary, Online & Final contests across the years |
 | 🟧 LeetCode | 27 | For when I want to feel briefly competent |
@@ -50,7 +50,7 @@ Because finishing the whole set is a personality trait I'm *aspiring* to:
 
 14 templates I copy-paste at 3 AM and pray they still work — segment trees, BITs, treaps, tries, string algorithms, geometry, and more.
 
-<sub>📈 Auto-updated on every push · last refreshed 2026-07-02 (UTC)</sub>
+<sub>📈 Auto-updated on every push · last refreshed 2026-07-06 (UTC)</sub>
 <!-- STATS:END -->
 
 ## Warning ⚠️
