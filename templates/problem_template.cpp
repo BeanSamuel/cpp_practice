@@ -17,37 +17,67 @@ template <class T> bool chmax(T &a, T b) { return (a < b and (a = b, true)); }
 template <class T> inline constexpr T inf = numeric_limits<T>::max() / 2;
 
 const int MOD =  998244353;
-const double PI = 3.14159265358;
+const double PI = 3.14159265358979323846;
 const double EPS = 1e-9;
-const int xx[8] = {0,1,0,-1,1,1,-1,-1}; const int yy[8] = {1,0,-1,0,1,-1,-1,1};
+const int xx[8] = {0,1,0,-1,1,1,-1,-1};
+const int yy[8] = {1,0,-1,0,1,-1,-1,1};
 
-void pmod(ll &a, ll b) {a = (a+b)%MOD;}
-void mmod(ll &a, ll b) {a = (a-b+MOD)%MOD;} 
-void tmod(ll &a, ll b) {a = (a*b)%MOD;}
-ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a%b);}
-ll POW(ll a, ll b) {ll res=1; do{if(b%2)tmod(res,a);tmod(a,a);}while(b>>=1); return res;}
+void pmod(ll &a, ll b) { a = ((a + b) % MOD + MOD) % MOD; }
+void mmod(ll &a, ll b) { a = ((a - b) % MOD + MOD) % MOD; }
+void tmod(ll &a, ll b) { a = (a * b) % MOD; }
+ll POW(ll a, ll b, ll mod = MOD) {
+    ll res = 1; a %= mod;
+    while (b) {
+        if (b & 1) res = res * a % mod;
+        a = a * a % mod;
+        b >>= 1;
+    }
+    return res;
+}
 
-const int MXN = 1e8; const int N = MXN + 10;
+mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
+
 #define pii pair<int,int>
 #define pll pair<ll, ll>
 
 #ifdef LOCAL
+template<class T, class = void>
+struct is_container : false_type {};
+template<class T>
+struct is_container<T, void_t<decltype(begin(declval<T>()))>> : true_type {};
+
+template<class A, class B>
+ostream& operator<<(ostream& os, const pair<A,B>& p) {
+    return os << "(" << p.first << ", " << p.second << ")";
+}
+
+template<class T, enable_if_t<is_container<T>::value && !is_same<T, string>::value, int> = 0>
+ostream& operator<<(ostream& os, const T& v) {
+    os << "{";
+    bool first = true;
+    for (auto& x : v) {
+        if (!first) os << ", ";
+        os << x;
+        first = false;
+    }
+    return os << "}";
+}
+
 template<class... T> void dbg(T...x) {
     char e{};
-    ((cerr << e << x, e = ' '),...);
+    ((cerr << e << x, e = ' '), ...);
 }
-#define debug(x...) dbg(#x, '=',x,'\n')
-#else 
+#define debug(...) dbg(#__VA_ARGS__, '=', __VA_ARGS__, '\n')
+#else
 #define debug(...) ((void)0)
 #endif
 
-void solve(){
+void solve() {
 
 }
 
-
-signed main(){
+int main() {
     fastio;
-	int t=1; cin>>t;
-	while(t--) solve();
+    int t = 1; cin >> t;
+    while (t--) solve();
 }
