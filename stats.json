@@ -1,0 +1,497 @@
+{
+  "repo": "BeanSamuel/cpp_practice",
+  "generatedAt": "2026-07-15",
+  "totals": {
+    "headline": 410,
+    "problems": 412,
+    "cppFiles": 426,
+    "templates": 14,
+    "commits": 432,
+    "sourceCount": 8,
+    "firstDate": "2025-04-20",
+    "activeDays": 122,
+    "currentStreak": 1,
+    "longestStreak": 12
+  },
+  "sources": [
+    {
+      "key": "codeforces",
+      "emoji": "⚔️",
+      "name": "Codeforces",
+      "count": 129,
+      "blurb": "Rounds, Educational & ICPC regionals — the daily grind",
+      "url": "https://codeforces.com/"
+    },
+    {
+      "key": "cses",
+      "emoji": "🇫🇮",
+      "name": "CSES",
+      "count": 89,
+      "blurb": "The classic problem set, one category at a time (see below)",
+      "url": "https://cses.fi/problemset/"
+    },
+    {
+      "key": "zerojudge",
+      "emoji": "🏯",
+      "name": "ZeroJudge",
+      "count": 76,
+      "blurb": "Taiwan's finest gauntlet of WA verdicts",
+      "url": "https://zerojudge.tw/"
+    },
+    {
+      "key": "apcs",
+      "emoji": "🎓",
+      "name": "APCS",
+      "count": 34,
+      "blurb": "Real exam past papers + simulations",
+      "url": "https://apcs.csie.ntnu.edu.tw/"
+    },
+    {
+      "key": "ytp",
+      "emoji": "🏆",
+      "name": "YTP",
+      "count": 31,
+      "blurb": "Preliminary, Online & Final contests across the years",
+      "url": "https://ytp.nchu.edu.tw/"
+    },
+    {
+      "key": "leetcode",
+      "emoji": "🟧",
+      "name": "LeetCode",
+      "count": 27,
+      "blurb": "For when I want to feel briefly competent",
+      "url": "https://leetcode.com/"
+    },
+    {
+      "key": "i2cp",
+      "emoji": "📚",
+      "name": "I2CP",
+      "count": 25,
+      "blurb": "Pre-training & coursework grind",
+      "url": "https://sites.google.com/view/i2cp/"
+    },
+    {
+      "key": "usaco",
+      "emoji": "🐄",
+      "name": "USACO",
+      "count": 1,
+      "blurb": "The cows and I are still negotiating",
+      "url": "http://www.usaco.org/"
+    }
+  ],
+  "cses": {
+    "total": 89,
+    "categories": [
+      {
+        "name": "Sorting and Searching",
+        "count": 25
+      },
+      {
+        "name": "Dynamic Programming",
+        "count": 14
+      },
+      {
+        "name": "Introductory Problems",
+        "count": 12
+      },
+      {
+        "name": "Graph Algorithms",
+        "count": 8
+      },
+      {
+        "name": "Mathematics",
+        "count": 8
+      },
+      {
+        "name": "Range Queries",
+        "count": 7
+      },
+      {
+        "name": "Sliding Window Problems",
+        "count": 7
+      },
+      {
+        "name": "Geometry",
+        "count": 4
+      },
+      {
+        "name": "Additional Problems II",
+        "count": 2
+      },
+      {
+        "name": "String Algorithms",
+        "count": 1
+      },
+      {
+        "name": "Tree Algorithms",
+        "count": 1
+      }
+    ]
+  },
+  "activity": {
+    "2025-04-20": 10,
+    "2025-04-21": 1,
+    "2025-04-22": 12,
+    "2025-04-23": 6,
+    "2025-04-24": 2,
+    "2025-04-25": 5,
+    "2025-04-29": 2,
+    "2025-04-30": 2,
+    "2025-05-01": 1,
+    "2025-05-02": 4,
+    "2025-05-03": 2,
+    "2025-05-04": 4,
+    "2025-05-05": 2,
+    "2025-05-06": 1,
+    "2025-05-07": 1,
+    "2025-05-08": 1,
+    "2025-05-09": 1,
+    "2025-05-11": 1,
+    "2025-05-12": 1,
+    "2025-05-13": 2,
+    "2025-05-14": 3,
+    "2025-05-15": 2,
+    "2025-05-16": 3,
+    "2025-05-17": 10,
+    "2025-05-18": 2,
+    "2025-05-19": 1,
+    "2025-05-20": 2,
+    "2025-05-21": 4,
+    "2025-05-22": 1,
+    "2025-05-24": 3,
+    "2025-05-25": 5,
+    "2025-05-26": 1,
+    "2025-05-27": 1,
+    "2025-05-28": 1,
+    "2025-05-29": 2,
+    "2025-05-30": 1,
+    "2025-06-22": 2,
+    "2025-06-25": 8,
+    "2025-06-27": 5,
+    "2025-06-29": 6,
+    "2025-06-30": 1,
+    "2025-07-01": 2,
+    "2025-07-02": 3,
+    "2025-07-03": 5,
+    "2025-07-04": 10,
+    "2025-07-05": 1,
+    "2025-07-06": 3,
+    "2025-07-07": 1,
+    "2025-07-10": 3,
+    "2025-07-13": 5,
+    "2025-07-18": 2,
+    "2025-07-27": 2,
+    "2025-07-29": 1,
+    "2025-07-30": 1,
+    "2025-08-07": 1,
+    "2025-08-08": 4,
+    "2025-08-10": 4,
+    "2025-08-14": 4,
+    "2025-08-15": 5,
+    "2025-08-16": 6,
+    "2025-08-17": 3,
+    "2025-08-30": 1,
+    "2025-09-07": 6,
+    "2025-09-09": 1,
+    "2025-09-10": 3,
+    "2025-09-11": 5,
+    "2025-09-18": 5,
+    "2025-09-20": 2,
+    "2025-09-22": 7,
+    "2025-09-26": 1,
+    "2025-09-27": 8,
+    "2025-09-30": 4,
+    "2025-10-02": 6,
+    "2025-10-06": 3,
+    "2025-10-07": 4,
+    "2025-10-11": 1,
+    "2025-10-14": 3,
+    "2025-10-15": 3,
+    "2025-10-16": 4,
+    "2025-10-17": 1,
+    "2025-10-18": 11,
+    "2025-10-19": 2,
+    "2025-10-20": 2,
+    "2025-10-23": 4,
+    "2025-10-24": 3,
+    "2025-10-25": 4,
+    "2025-10-30": 1,
+    "2025-11-01": 7,
+    "2025-11-06": 1,
+    "2025-11-08": 3,
+    "2025-11-09": 2,
+    "2025-11-10": 5,
+    "2025-11-29": 1,
+    "2026-02-03": 1,
+    "2026-02-11": 1,
+    "2026-02-14": 1,
+    "2026-02-23": 4,
+    "2026-02-24": 3,
+    "2026-02-26": 1,
+    "2026-02-27": 3,
+    "2026-03-02": 4,
+    "2026-03-03": 5,
+    "2026-04-09": 1,
+    "2026-04-10": 1,
+    "2026-04-16": 8,
+    "2026-04-23": 2,
+    "2026-04-26": 1,
+    "2026-05-07": 9,
+    "2026-05-10": 2,
+    "2026-05-14": 3,
+    "2026-05-17": 1,
+    "2026-05-24": 4,
+    "2026-06-02": 3,
+    "2026-06-14": 8,
+    "2026-06-19": 9,
+    "2026-06-23": 1,
+    "2026-06-25": 2,
+    "2026-06-30": 2,
+    "2026-07-02": 3,
+    "2026-07-06": 11,
+    "2026-07-09": 1,
+    "2026-07-15": 12
+  },
+  "recent": [
+    {
+      "date": "2026-07-15",
+      "sha": "c68663d",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d212",
+      "path": "zerojudge/d212.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "e09ab17",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "a159",
+      "path": "zerojudge/a159.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "bfa4e98",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "e533",
+      "path": "zerojudge/e533.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "2438b68",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "e611",
+      "path": "zerojudge/e611.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "939276e",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d660",
+      "path": "zerojudge/d660.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "85a6bfa",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d267",
+      "path": "zerojudge/d267.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "c33ffd7",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s658",
+      "path": "zerojudge/s658.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "56b8974",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s657",
+      "path": "zerojudge/s657.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "7667df0",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s656",
+      "path": "zerojudge/s656.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "4ec9b30",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s659",
+      "path": "zerojudge/s659.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "4bc24ab",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s655",
+      "path": "zerojudge/s655.cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "sha": "b5fa0fe",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s660",
+      "path": "zerojudge/s660.cpp"
+    },
+    {
+      "date": "2026-07-09",
+      "sha": "1ee0386",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Mathematics",
+      "problem": "Christmas_Party",
+      "path": "CSES/Mathematics/Christmas_Party.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "aa3f571",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "f035",
+      "path": "zerojudge/f035.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "9644422",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "f017",
+      "path": "zerojudge/f017.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "9c8c8ef",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "e997",
+      "path": "zerojudge/e997.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "198d1f3",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "f046",
+      "path": "zerojudge/f046.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "af6774a",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "f047",
+      "path": "zerojudge/f047.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "327bfbe",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "f063",
+      "path": "zerojudge/f063.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "0709f0f",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "e598",
+      "path": "zerojudge/e598.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "82f25c7",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "e484",
+      "path": "zerojudge/e484.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "9d4ba0f",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "e051",
+      "path": "zerojudge/e051.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "7b50987",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d532",
+      "path": "zerojudge/d532.cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "sha": "5df3a91",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d491",
+      "path": "zerojudge/d491.cpp"
+    }
+  ]
+}
