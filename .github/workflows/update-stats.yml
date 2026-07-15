@@ -1,6 +1,7 @@
-name: Update README stats
+name: Update stats
 
-# Recount problems and refresh the stats section of README.md after every push.
+# Recount problems after every push, refreshing the stats section of README.md
+# and stats.json (consumed by https://beansamuel.github.io/#/competitive).
 on:
   push:
     branches: [main]
@@ -23,17 +24,17 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Regenerate README stats
+      - name: Regenerate stats
         run: python scripts/update_readme_stats.py
 
-      - name: Commit & push if README changed
+      - name: Commit & push if stats changed
         run: |
-          if git diff --quiet -- README.md; then
-            echo "README.md unchanged — nothing to commit."
+          if git diff --quiet -- README.md stats.json; then
+            echo "Stats unchanged — nothing to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "chore: auto-update README stats [skip ci]"
+          git add README.md stats.json
+          git commit -m "chore: auto-update stats [skip ci]"
           git push
