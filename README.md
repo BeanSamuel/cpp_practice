@@ -11,9 +11,9 @@ If you're looking for elegant solutions, you're in the wrong place. But if you e
 
 | Stat | Value |
 |------|------:|
-| 🧩 Problems suffered through | **400+** |
-| 📝 Total `.cpp` files (incl. templates) | **423** |
-| 💾 Commits of regret | **425** |
+| 🧩 Problems suffered through | **410+** |
+| 📝 Total `.cpp` files (incl. templates) | **424** |
+| 💾 Commits of regret | **427** |
 | 📅 In the trenches since | **2025-04-20** |
 | 🗂️ Judges & contest archives | **8** |
 | 🛠️ Battle-tested templates | **14** |
@@ -26,7 +26,7 @@ A curated tour of the online judges and contest archives that have personally wr
 |--------|-------:|------------|
 | ⚔️ Codeforces | 129 | Rounds, Educational & ICPC regionals — the daily grind |
 | 🇫🇮 CSES | 89 | The classic problem set, one category at a time (see below) |
-| 🏯 ZeroJudge | 73 | Taiwan's finest gauntlet of WA verdicts |
+| 🏯 ZeroJudge | 74 | Taiwan's finest gauntlet of WA verdicts |
 | 🎓 APCS | 34 | Real exam past papers + simulations |
 | 🏆 YTP | 31 | Preliminary, Online & Final contests across the years |
 | 🟧 LeetCode | 27 | For when I want to feel briefly competent |
