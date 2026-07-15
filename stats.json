@@ -3,14 +3,14 @@
   "generatedAt": "2026-07-15",
   "totals": {
     "headline": 410,
-    "problems": 412,
-    "cppFiles": 426,
+    "problems": 413,
+    "cppFiles": 427,
     "templates": 14,
-    "commits": 432,
+    "commits": 434,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 122,
-    "currentStreak": 1,
+    "activeDays": 123,
+    "currentStreak": 2,
     "longestStreak": 12
   },
   "sources": [
@@ -34,7 +34,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 76,
+      "count": 77,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -250,9 +250,20 @@
     "2026-07-02": 3,
     "2026-07-06": 11,
     "2026-07-09": 1,
-    "2026-07-15": 12
+    "2026-07-15": 12,
+    "2026-07-16": 1
   },
   "recent": [
+    {
+      "date": "2026-07-16",
+      "sha": "3e72685",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d038",
+      "path": "zerojudge/d038.cpp"
+    },
     {
       "date": "2026-07-15",
       "sha": "c68663d",
@@ -482,16 +493,6 @@
       "category": "ZeroJudge",
       "problem": "d532",
       "path": "zerojudge/d532.cpp"
-    },
-    {
-      "date": "2026-07-06",
-      "sha": "5df3a91",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "d491",
-      "path": "zerojudge/d491.cpp"
     }
   ]
 }
