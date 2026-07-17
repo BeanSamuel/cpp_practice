@@ -2,11 +2,11 @@
   "repo": "BeanSamuel/cpp_practice",
   "generatedAt": "2026-07-17",
   "totals": {
-    "headline": 420,
-    "problems": 427,
-    "cppFiles": 441,
+    "headline": 430,
+    "problems": 430,
+    "cppFiles": 444,
     "templates": 14,
-    "commits": 453,
+    "commits": 457,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 124,
@@ -26,7 +26,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 90,
+      "count": 93,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -252,9 +252,39 @@
     "2026-07-09": 1,
     "2026-07-15": 12,
     "2026-07-16": 5,
-    "2026-07-17": 10
+    "2026-07-17": 13
   },
   "recent": [
+    {
+      "date": "2026-07-17",
+      "sha": "b9cb9fe",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "a539",
+      "path": "zerojudge/a539.cpp"
+    },
+    {
+      "date": "2026-07-17",
+      "sha": "19975c6",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d190",
+      "path": "zerojudge/d190.cpp"
+    },
+    {
+      "date": "2026-07-17",
+      "sha": "4cbb4d3",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "a915",
+      "path": "zerojudge/a915.cpp"
+    },
     {
       "date": "2026-07-17",
       "sha": "940cea5",
@@ -464,36 +494,6 @@
       "category": "ZeroJudge",
       "problem": "d267",
       "path": "zerojudge/d267.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "c33ffd7",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s658",
-      "path": "zerojudge/s658.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "56b8974",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s657",
-      "path": "zerojudge/s657.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "7667df0",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s656",
-      "path": "zerojudge/s656.cpp"
     }
   ]
 }
