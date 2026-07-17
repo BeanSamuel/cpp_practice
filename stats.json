@@ -3,14 +3,14 @@
   "generatedAt": "2026-07-17",
   "totals": {
     "headline": 430,
-    "problems": 430,
-    "cppFiles": 444,
+    "problems": 431,
+    "cppFiles": 445,
     "templates": 14,
-    "commits": 457,
+    "commits": 459,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 124,
-    "currentStreak": 3,
+    "activeDays": 125,
+    "currentStreak": 4,
     "longestStreak": 12
   },
   "sources": [
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 89,
+      "count": 90,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,11 +80,11 @@
     }
   ],
   "cses": {
-    "total": 89,
+    "total": 90,
     "categories": [
       {
         "name": "Sorting and Searching",
-        "count": 25
+        "count": 26
       },
       {
         "name": "Dynamic Programming",
@@ -252,9 +252,20 @@
     "2026-07-09": 1,
     "2026-07-15": 12,
     "2026-07-16": 5,
-    "2026-07-17": 13
+    "2026-07-17": 13,
+    "2026-07-18": 1
   },
   "recent": [
+    {
+      "date": "2026-07-18",
+      "sha": "3a013a4",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Sorting and Searching",
+      "problem": "Restaurant_Customers",
+      "path": "CSES/Sorting_and_Searching/Restaurant_Customers.cpp"
+    },
     {
       "date": "2026-07-17",
       "sha": "b9cb9fe",
@@ -484,16 +495,6 @@
       "category": "ZeroJudge",
       "problem": "d660",
       "path": "zerojudge/d660.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "85a6bfa",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "d267",
-      "path": "zerojudge/d267.cpp"
     }
   ]
 }
