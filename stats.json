@@ -1,12 +1,12 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-07-16",
+  "generatedAt": "2026-07-17",
   "totals": {
     "headline": 420,
-    "problems": 423,
-    "cppFiles": 437,
+    "problems": 426,
+    "cppFiles": 440,
     "templates": 14,
-    "commits": 447,
+    "commits": 451,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 124,
@@ -34,7 +34,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 87,
+      "count": 89,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -42,7 +42,7 @@
       "key": "apcs",
       "emoji": "🎓",
       "name": "APCS",
-      "count": 34,
+      "count": 35,
       "blurb": "Real exam past papers + simulations",
       "url": "https://apcs.csie.ntnu.edu.tw/"
     },
@@ -252,9 +252,39 @@
     "2026-07-09": 1,
     "2026-07-15": 12,
     "2026-07-16": 5,
-    "2026-07-17": 6
+    "2026-07-17": 9
   },
   "recent": [
+    {
+      "date": "2026-07-17",
+      "sha": "6b611b2",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "n565",
+      "path": "zerojudge/n565.cpp"
+    },
+    {
+      "date": "2026-07-17",
+      "sha": "ede237a",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "g597",
+      "path": "zerojudge/g597.cpp"
+    },
+    {
+      "date": "2026-07-17",
+      "sha": "ba0f07c",
+      "source": "apcs",
+      "sourceName": "APCS",
+      "emoji": "🎓",
+      "category": "2021 11",
+      "problem": "C",
+      "path": "APCS/2021_11/C.cpp"
+    },
     {
       "date": "2026-07-17",
       "sha": "9d4affc",
@@ -464,36 +494,6 @@
       "category": "ZeroJudge",
       "problem": "s659",
       "path": "zerojudge/s659.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "4bc24ab",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s655",
-      "path": "zerojudge/s655.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "b5fa0fe",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s660",
-      "path": "zerojudge/s660.cpp"
-    },
-    {
-      "date": "2026-07-09",
-      "sha": "1ee0386",
-      "source": "cses",
-      "sourceName": "CSES",
-      "emoji": "🇫🇮",
-      "category": "Mathematics",
-      "problem": "Christmas_Party",
-      "path": "CSES/Mathematics/Christmas_Party.cpp"
     }
   ]
 }
