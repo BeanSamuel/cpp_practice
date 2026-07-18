@@ -3,10 +3,10 @@
   "generatedAt": "2026-07-18",
   "totals": {
     "headline": 430,
-    "problems": 433,
-    "cppFiles": 447,
+    "problems": 434,
+    "cppFiles": 448,
     "templates": 14,
-    "commits": 462,
+    "commits": 464,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 125,
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 90,
+      "count": 91,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,7 +80,7 @@
     }
   ],
   "cses": {
-    "total": 90,
+    "total": 91,
     "categories": [
       {
         "name": "Sorting and Searching",
@@ -92,7 +92,7 @@
       },
       {
         "name": "Introductory Problems",
-        "count": 12
+        "count": 13
       },
       {
         "name": "Graph Algorithms",
@@ -253,9 +253,19 @@
     "2026-07-15": 12,
     "2026-07-16": 5,
     "2026-07-17": 13,
-    "2026-07-18": 3
+    "2026-07-18": 4
   },
   "recent": [
+    {
+      "date": "2026-07-18",
+      "sha": "a13ea97",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Introductory Problems",
+      "problem": "Apple_Division",
+      "path": "CSES/Introductory_Problems/Apple_Division.cpp"
+    },
     {
       "date": "2026-07-18",
       "sha": "7206ac2",
@@ -485,16 +495,6 @@
       "category": "ZeroJudge",
       "problem": "a159",
       "path": "zerojudge/a159.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "bfa4e98",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "e533",
-      "path": "zerojudge/e533.cpp"
     }
   ]
 }
