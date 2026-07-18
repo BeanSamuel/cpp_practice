@@ -1,12 +1,12 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-07-17",
+  "generatedAt": "2026-07-18",
   "totals": {
     "headline": 430,
-    "problems": 431,
-    "cppFiles": 445,
+    "problems": 433,
+    "cppFiles": 447,
     "templates": 14,
-    "commits": 459,
+    "commits": 462,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 125,
@@ -26,7 +26,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 93,
+      "count": 95,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -253,9 +253,29 @@
     "2026-07-15": 12,
     "2026-07-16": 5,
     "2026-07-17": 13,
-    "2026-07-18": 1
+    "2026-07-18": 3
   },
   "recent": [
+    {
+      "date": "2026-07-18",
+      "sha": "7206ac2",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "d261",
+      "path": "zerojudge/d261.cpp"
+    },
+    {
+      "date": "2026-07-18",
+      "sha": "445acec",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "a519",
+      "path": "zerojudge/a519.cpp"
+    },
     {
       "date": "2026-07-18",
       "sha": "3a013a4",
@@ -475,26 +495,6 @@
       "category": "ZeroJudge",
       "problem": "e533",
       "path": "zerojudge/e533.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "2438b68",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "e611",
-      "path": "zerojudge/e611.cpp"
-    },
-    {
-      "date": "2026-07-15",
-      "sha": "939276e",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "d660",
-      "path": "zerojudge/d660.cpp"
     }
   ]
 }
