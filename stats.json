@@ -3,14 +3,14 @@
   "generatedAt": "2026-07-20",
   "totals": {
     "headline": 450,
-    "problems": 456,
-    "cppFiles": 470,
+    "problems": 457,
+    "cppFiles": 471,
     "templates": 14,
-    "commits": 491,
+    "commits": 493,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 127,
-    "currentStreak": 6,
+    "activeDays": 128,
+    "currentStreak": 7,
     "longestStreak": 12
   },
   "sources": [
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 92,
+      "count": 93,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,11 +80,11 @@
     }
   ],
   "cses": {
-    "total": 92,
+    "total": 93,
     "categories": [
       {
         "name": "Sorting and Searching",
-        "count": 26
+        "count": 27
       },
       {
         "name": "Dynamic Programming",
@@ -255,9 +255,20 @@
     "2026-07-17": 13,
     "2026-07-18": 9,
     "2026-07-19": 5,
-    "2026-07-20": 12
+    "2026-07-20": 12,
+    "2026-07-21": 1
   },
   "recent": [
+    {
+      "date": "2026-07-21",
+      "sha": "5e403ff",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Sorting and Searching",
+      "problem": "Subarray_Divisibility",
+      "path": "CSES/Sorting_and_Searching/Subarray_Divisibility.cpp"
+    },
     {
       "date": "2026-07-20",
       "sha": "ad53506",
@@ -487,16 +498,6 @@
       "category": "Introductory Problems",
       "problem": "Apple_Division",
       "path": "CSES/Introductory_Problems/Apple_Division.cpp"
-    },
-    {
-      "date": "2026-07-18",
-      "sha": "7206ac2",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "d261",
-      "path": "zerojudge/d261.cpp"
     }
   ]
 }
