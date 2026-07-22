@@ -3,10 +3,10 @@
   "generatedAt": "2026-07-22",
   "totals": {
     "headline": 460,
-    "problems": 461,
-    "cppFiles": 475,
+    "problems": 462,
+    "cppFiles": 476,
     "templates": 14,
-    "commits": 500,
+    "commits": 502,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 129,
@@ -42,7 +42,7 @@
       "key": "apcs",
       "emoji": "🎓",
       "name": "APCS",
-      "count": 37,
+      "count": 38,
       "blurb": "Real exam past papers + simulations",
       "url": "https://apcs.csie.ntnu.edu.tw/"
     },
@@ -257,9 +257,19 @@
     "2026-07-19": 5,
     "2026-07-20": 12,
     "2026-07-21": 3,
-    "2026-07-22": 2
+    "2026-07-22": 3
   },
   "recent": [
+    {
+      "date": "2026-07-22",
+      "sha": "ed0fcb7",
+      "source": "apcs",
+      "sourceName": "APCS",
+      "emoji": "🎓",
+      "category": "2026 1 Beginner",
+      "problem": "A",
+      "path": "APCS/2026_1_Beginner/A.cpp"
+    },
     {
       "date": "2026-07-22",
       "sha": "de727c4",
@@ -489,16 +499,6 @@
       "category": "ZeroJudge",
       "problem": "f640",
       "path": "zerojudge/f640.cpp"
-    },
-    {
-      "date": "2026-07-18",
-      "sha": "24128cc",
-      "source": "apcs",
-      "sourceName": "APCS",
-      "emoji": "🎓",
-      "category": "2019 2",
-      "problem": "C",
-      "path": "APCS/2019_2/C.cpp"
     }
   ]
 }
