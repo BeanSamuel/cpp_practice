@@ -3,10 +3,10 @@
   "generatedAt": "2026-07-22",
   "totals": {
     "headline": 460,
-    "problems": 464,
-    "cppFiles": 478,
+    "problems": 466,
+    "cppFiles": 480,
     "templates": 14,
-    "commits": 505,
+    "commits": 508,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 129,
@@ -26,7 +26,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 119,
+      "count": 120,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -42,7 +42,7 @@
       "key": "apcs",
       "emoji": "🎓",
       "name": "APCS",
-      "count": 38,
+      "count": 39,
       "blurb": "Real exam past papers + simulations",
       "url": "https://apcs.csie.ntnu.edu.tw/"
     },
@@ -261,9 +261,29 @@
     "2026-07-19": 5,
     "2026-07-20": 12,
     "2026-07-21": 3,
-    "2026-07-22": 5
+    "2026-07-22": 7
   },
   "recent": [
+    {
+      "date": "2026-07-22",
+      "sha": "d8ea517",
+      "source": "apcs",
+      "sourceName": "APCS",
+      "emoji": "🎓",
+      "category": "2023 1",
+      "problem": "D",
+      "path": "APCS/2023_1/D.cpp"
+    },
+    {
+      "date": "2026-07-22",
+      "sha": "df1e99c",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "j608",
+      "path": "zerojudge/j608.cpp"
+    },
     {
       "date": "2026-07-22",
       "sha": "0e8e7f2",
@@ -483,26 +503,6 @@
       "category": "ZeroJudge",
       "problem": "f677",
       "path": "zerojudge/f677.cpp"
-    },
-    {
-      "date": "2026-07-19",
-      "sha": "1a9ba10",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "a445",
-      "path": "zerojudge/a445.cpp"
-    },
-    {
-      "date": "2026-07-19",
-      "sha": "d07862f",
-      "source": "cses",
-      "sourceName": "CSES",
-      "emoji": "🇫🇮",
-      "category": "Graph Algorithms",
-      "problem": "Road_Reparation",
-      "path": "CSES/Graph_Algorithms/Road_Reparation.cpp"
     }
   ]
 }
