@@ -12,8 +12,8 @@ If you're looking for elegant solutions, you're in the wrong place. But if you e
 | Stat | Value |
 |------|------:|
 | 🧩 Problems suffered through | **460+** |
-| 📝 Total `.cpp` files (incl. templates) | **476** |
-| 💾 Commits of regret | **502** |
+| 📝 Total `.cpp` files (incl. templates) | **478** |
+| 💾 Commits of regret | **505** |
 | 📅 In the trenches since | **2025-04-20** |
 | 🗂️ Judges & contest archives | **8** |
 | 🛠️ Battle-tested templates | **14** |
@@ -25,8 +25,8 @@ A curated tour of the online judges and contest archives that have personally wr
 | Source | Solved | What it is |
 |--------|-------:|------------|
 | ⚔️ Codeforces | 129 | Rounds, Educational & ICPC regionals — the daily grind |
-| 🏯 ZeroJudge | 118 | Taiwan's finest gauntlet of WA verdicts |
-| 🇫🇮 CSES | 93 | The classic problem set, one category at a time (see below) |
+| 🏯 ZeroJudge | 119 | Taiwan's finest gauntlet of WA verdicts |
+| 🇫🇮 CSES | 94 | The classic problem set, one category at a time (see below) |
 | 🎓 APCS | 38 | Real exam past papers + simulations |
 | 🏆 YTP | 31 | Preliminary, Online & Final contests across the years |
 | 🟧 LeetCode | 27 | For when I want to feel briefly competent |
@@ -43,8 +43,8 @@ Because finishing the whole set is a personality trait I'm *aspiring* to:
 | Introductory Problems | 13 | Graph Algorithms | 9 |
 | Mathematics | 8 | Range Queries | 7 |
 | Sliding Window Problems | 7 | Geometry | 4 |
-| Additional Problems II | 2 | String Algorithms | 1 |
-| Tree Algorithms | 1 | | |
+| Additional Problems II | 2 | Additional Problems I | 1 |
+| String Algorithms | 1 | Tree Algorithms | 1 |
 
 ## The Arsenal 🛠️
 

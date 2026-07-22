@@ -3,10 +3,10 @@
   "generatedAt": "2026-07-22",
   "totals": {
     "headline": 460,
-    "problems": 462,
-    "cppFiles": 476,
+    "problems": 464,
+    "cppFiles": 478,
     "templates": 14,
-    "commits": 502,
+    "commits": 505,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 129,
@@ -26,7 +26,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 118,
+      "count": 119,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 93,
+      "count": 94,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,7 +80,7 @@
     }
   ],
   "cses": {
-    "total": 93,
+    "total": 94,
     "categories": [
       {
         "name": "Sorting and Searching",
@@ -117,6 +117,10 @@
       {
         "name": "Additional Problems II",
         "count": 2
+      },
+      {
+        "name": "Additional Problems I",
+        "count": 1
       },
       {
         "name": "String Algorithms",
@@ -257,9 +261,29 @@
     "2026-07-19": 5,
     "2026-07-20": 12,
     "2026-07-21": 3,
-    "2026-07-22": 3
+    "2026-07-22": 5
   },
   "recent": [
+    {
+      "date": "2026-07-22",
+      "sha": "0e8e7f2",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Additional Problems I",
+      "problem": "Multiplication_Table",
+      "path": "CSES/Additional_Problems_I/Multiplication_Table.cpp"
+    },
+    {
+      "date": "2026-07-22",
+      "sha": "19d8579",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "k605",
+      "path": "zerojudge/k605.cpp"
+    },
     {
       "date": "2026-07-22",
       "sha": "ed0fcb7",
@@ -479,26 +503,6 @@
       "category": "Graph Algorithms",
       "problem": "Road_Reparation",
       "path": "CSES/Graph_Algorithms/Road_Reparation.cpp"
-    },
-    {
-      "date": "2026-07-19",
-      "sha": "a2b419e",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "f679",
-      "path": "zerojudge/f679.cpp"
-    },
-    {
-      "date": "2026-07-18",
-      "sha": "dcd486d",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "f640",
-      "path": "zerojudge/f640.cpp"
     }
   ]
 }
