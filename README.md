@@ -11,9 +11,9 @@ If you're looking for elegant solutions, you're in the wrong place. But if you e
 
 | Stat | Value |
 |------|------:|
-| 🧩 Problems suffered through | **460+** |
-| 📝 Total `.cpp` files (incl. templates) | **482** |
-| 💾 Commits of regret | **512** |
+| 🧩 Problems suffered through | **470+** |
+| 📝 Total `.cpp` files (incl. templates) | **484** |
+| 💾 Commits of regret | **515** |
 | 📅 In the trenches since | **2025-04-20** |
 | 🗂️ Judges & contest archives | **8** |
 | 🛠️ Battle-tested templates | **14** |
@@ -25,9 +25,9 @@ A curated tour of the online judges and contest archives that have personally wr
 | Source | Solved | What it is |
 |--------|-------:|------------|
 | ⚔️ Codeforces | 129 | Rounds, Educational & ICPC regionals — the daily grind |
-| 🏯 ZeroJudge | 122 | Taiwan's finest gauntlet of WA verdicts |
+| 🏯 ZeroJudge | 123 | Taiwan's finest gauntlet of WA verdicts |
 | 🇫🇮 CSES | 94 | The classic problem set, one category at a time (see below) |
-| 🎓 APCS | 39 | Real exam past papers + simulations |
+| 🎓 APCS | 40 | Real exam past papers + simulations |
 | 🏆 YTP | 31 | Preliminary, Online & Final contests across the years |
 | 🟧 LeetCode | 27 | For when I want to feel briefly competent |
 | 📚 I2CP | 25 | Pre-training & coursework grind |
@@ -50,7 +50,7 @@ Because finishing the whole set is a personality trait I'm *aspiring* to:
 
 14 templates I copy-paste at 3 AM and pray they still work — segment trees, BITs, treaps, tries, string algorithms, geometry, and more.
 
-<sub>📈 Auto-updated on every push · last refreshed 2026-07-23 (UTC)</sub>
+<sub>📈 Auto-updated on every push · last refreshed 2026-07-24 (UTC)</sub>
 <!-- STATS:END -->
 
 ## Warning ⚠️
