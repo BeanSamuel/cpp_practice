@@ -1,16 +1,16 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-07-31",
+  "generatedAt": "2026-08-01",
   "totals": {
     "headline": 480,
-    "problems": 486,
-    "cppFiles": 500,
+    "problems": 488,
+    "cppFiles": 502,
     "templates": 14,
-    "commits": 533,
+    "commits": 536,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 136,
-    "currentStreak": 3,
+    "activeDays": 137,
+    "currentStreak": 4,
     "longestStreak": 12
   },
   "sources": [
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 136,
+      "count": 138,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -268,9 +268,30 @@
     "2026-07-27": 3,
     "2026-07-29": 7,
     "2026-07-30": 2,
-    "2026-07-31": 1
+    "2026-07-31": 1,
+    "2026-08-01": 2
   },
   "recent": [
+    {
+      "date": "2026-08-01",
+      "sha": "bcad167",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "a024",
+      "path": "zerojudge/a024.cpp"
+    },
+    {
+      "date": "2026-08-01",
+      "sha": "6e15e94",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "c202",
+      "path": "zerojudge/c202.cpp"
+    },
     {
       "date": "2026-07-31",
       "sha": "9ee7869",
@@ -490,26 +511,6 @@
       "category": "ZeroJudge",
       "problem": "j608",
       "path": "zerojudge/j608.cpp"
-    },
-    {
-      "date": "2026-07-22",
-      "sha": "0e8e7f2",
-      "source": "cses",
-      "sourceName": "CSES",
-      "emoji": "🇫🇮",
-      "category": "Additional Problems I",
-      "problem": "Multiplication_Table",
-      "path": "CSES/Additional_Problems_I/Multiplication_Table.cpp"
-    },
-    {
-      "date": "2026-07-22",
-      "sha": "19d8579",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "k605",
-      "path": "zerojudge/k605.cpp"
     }
   ]
 }
