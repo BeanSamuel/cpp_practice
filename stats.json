@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-08-03",
+  "generatedAt": "2026-08-07",
   "totals": {
     "headline": 490,
-    "problems": 493,
-    "cppFiles": 507,
+    "problems": 497,
+    "cppFiles": 511,
     "templates": 14,
-    "commits": 542,
+    "commits": 545,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 138,
+    "activeDays": 139,
     "currentStreak": 1,
     "longestStreak": 12
   },
@@ -26,7 +26,7 @@
       "key": "codeforces",
       "emoji": "⚔️",
       "name": "Codeforces",
-      "count": 132,
+      "count": 136,
       "blurb": "Rounds, Educational & ICPC regionals — the daily grind",
       "url": "https://codeforces.com/"
     },
@@ -270,9 +270,50 @@
     "2026-07-30": 2,
     "2026-07-31": 1,
     "2026-08-01": 2,
-    "2026-08-03": 5
+    "2026-08-03": 5,
+    "2026-08-07": 4
   },
   "recent": [
+    {
+      "date": "2026-08-07",
+      "sha": "6c20dca",
+      "source": "codeforces",
+      "sourceName": "Codeforces",
+      "emoji": "⚔️",
+      "category": "Codeforces Round 1112",
+      "problem": "D",
+      "path": "codeforces/Codeforces_Round_1112/D.cpp"
+    },
+    {
+      "date": "2026-08-07",
+      "sha": "df37bf8",
+      "source": "codeforces",
+      "sourceName": "Codeforces",
+      "emoji": "⚔️",
+      "category": "Codeforces Round 1115",
+      "problem": "A",
+      "path": "codeforces/Codeforces_Round_1115/A.cpp"
+    },
+    {
+      "date": "2026-08-07",
+      "sha": "df37bf8",
+      "source": "codeforces",
+      "sourceName": "Codeforces",
+      "emoji": "⚔️",
+      "category": "Codeforces Round 1115",
+      "problem": "B",
+      "path": "codeforces/Codeforces_Round_1115/B.cpp"
+    },
+    {
+      "date": "2026-08-07",
+      "sha": "df37bf8",
+      "source": "codeforces",
+      "sourceName": "Codeforces",
+      "emoji": "⚔️",
+      "category": "Codeforces Round 1115",
+      "problem": "C",
+      "path": "codeforces/Codeforces_Round_1115/C.cpp"
+    },
     {
       "date": "2026-08-03",
       "sha": "893ad9a",
@@ -472,46 +513,6 @@
       "category": "Codeforces Round 1112",
       "problem": "C",
       "path": "codeforces/Codeforces_Round_1112/C.cpp"
-    },
-    {
-      "date": "2026-07-26",
-      "sha": "e7fc333",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s749",
-      "path": "zerojudge/s749.cpp"
-    },
-    {
-      "date": "2026-07-26",
-      "sha": "fad4f50",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "f260",
-      "path": "zerojudge/f260.cpp"
-    },
-    {
-      "date": "2026-07-26",
-      "sha": "dd78357",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "d221",
-      "path": "zerojudge/d221.cpp"
-    },
-    {
-      "date": "2026-07-24",
-      "sha": "bd9f822",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "o079",
-      "path": "zerojudge/o079.cpp"
     }
   ]
 }
