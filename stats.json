@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-08-07",
+  "generatedAt": "2026-08-10",
   "totals": {
-    "headline": 490,
-    "problems": 497,
-    "cppFiles": 511,
+    "headline": 500,
+    "problems": 503,
+    "cppFiles": 517,
     "templates": 14,
-    "commits": 545,
+    "commits": 552,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 139,
+    "activeDays": 140,
     "currentStreak": 1,
     "longestStreak": 12
   },
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 143,
+      "count": 148,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -42,7 +42,7 @@
       "key": "apcs",
       "emoji": "🎓",
       "name": "APCS",
-      "count": 40,
+      "count": 41,
       "blurb": "Real exam past papers + simulations",
       "url": "https://apcs.csie.ntnu.edu.tw/"
     },
@@ -271,9 +271,70 @@
     "2026-07-31": 1,
     "2026-08-01": 2,
     "2026-08-03": 5,
-    "2026-08-07": 4
+    "2026-08-07": 4,
+    "2026-08-10": 6
   },
   "recent": [
+    {
+      "date": "2026-08-10",
+      "sha": "96f3073",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "e283",
+      "path": "zerojudge/e283.cpp"
+    },
+    {
+      "date": "2026-08-10",
+      "sha": "3d28d29",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "c290",
+      "path": "zerojudge/c290.cpp"
+    },
+    {
+      "date": "2026-08-10",
+      "sha": "ba06743",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "c294",
+      "path": "zerojudge/c294.cpp"
+    },
+    {
+      "date": "2026-08-10",
+      "sha": "b7a9edf",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "c461",
+      "path": "zerojudge/c461.cpp"
+    },
+    {
+      "date": "2026-08-10",
+      "sha": "b0f99f1",
+      "source": "apcs",
+      "sourceName": "APCS",
+      "emoji": "🎓",
+      "category": "2024 1",
+      "problem": "A",
+      "path": "APCS/2024_1/A.cpp"
+    },
+    {
+      "date": "2026-08-10",
+      "sha": "4029dc8",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "b964",
+      "path": "zerojudge/b964.cpp"
+    },
     {
       "date": "2026-08-07",
       "sha": "6c20dca",
@@ -453,66 +514,6 @@
       "category": "ZeroJudge",
       "problem": "s708",
       "path": "zerojudge/s708.cpp"
-    },
-    {
-      "date": "2026-07-29",
-      "sha": "b2c9f29",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "a862",
-      "path": "zerojudge/a862.cpp"
-    },
-    {
-      "date": "2026-07-29",
-      "sha": "a7b031e",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "d900",
-      "path": "zerojudge/d900.cpp"
-    },
-    {
-      "date": "2026-07-29",
-      "sha": "307a5b2",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "a861",
-      "path": "zerojudge/a861.cpp"
-    },
-    {
-      "date": "2026-07-27",
-      "sha": "fbe3043",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Codeforces Round 1112",
-      "problem": "A",
-      "path": "codeforces/Codeforces_Round_1112/A.cpp"
-    },
-    {
-      "date": "2026-07-27",
-      "sha": "fbe3043",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Codeforces Round 1112",
-      "problem": "B",
-      "path": "codeforces/Codeforces_Round_1112/B.cpp"
-    },
-    {
-      "date": "2026-07-27",
-      "sha": "fbe3043",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Codeforces Round 1112",
-      "problem": "C",
-      "path": "codeforces/Codeforces_Round_1112/C.cpp"
     }
   ]
 }
