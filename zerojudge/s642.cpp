@@ -72,38 +72,79 @@ template<class... T> void dbg(T...x) {
 #define debug(...) ((void)0)
 #endif
 
-vec<char> used(20, 0);
-void backtrack(int n, vec<vec<int>> &v, int idx, int cost, int &ans) {
-    if(idx==n) {
-        chmin(ans, cost);
-        return;
-    }
-    int tmp = cost;
-    for(int i=idx;i<n;i++) {
-        int mn = inf<int>;
-        for(int j=0;j<n;j++) {
-            if(!used[j]) chmin(mn, v[i][j]);
+template < class T > // O(N^3) , N <= 800
+T KM ( const vector < vector <T > > & w ) {
+    const int n = siz(w);
+    vector <T > lx ( n ) , ly ( n ) ;
+    vector <int > mx (n , -1) , my (n , -1) , pa ( n ) ;
+    auto aug = [&]( int y ) {
+        for (int x , z ; y != -1; y = z ) {
+            x = pa [ y ]; z = mx [ x ];
+            my [ y ] = x ; mx [ x ] = y ;
         }
-        tmp += mn;
-    }
-    if(tmp>=ans) return;
-    for(int i=0;i<n;i++) {
-        if(!used[i]) {
-            used[i] = 1;
-            backtrack(n, v, idx+1, cost+v[idx][i], ans);
-            used[i] = 0;
+    };
+    auto bfs = [&]( int s ) {
+        vector <T > sy (n , inf <T >) ;
+        vector <bool > vx ( n ) , vy ( n ) ;
+        queue <int > q ;
+        q . push ( s ) ;
+        while ( true ) {
+            while ( q . size () ) {
+                int x = q . front () ; q . pop () ;
+                vx [ x ] = 1;
+                for ( int y = 0; y < n ; y ++) {
+                    if ( vy [ y ]) continue ;
+                    T d = lx [ x ] + ly [ y ] - w [ x ][ y ];
+                    if ( d == 0) {
+                        pa [ y ] = x ;
+                        if ( my [ y ] == -1)
+                            return aug ( y ) ;
+                        vy [ y ] = 1;
+                        q . push ( my [ y ]) ;
+                    } else if ( chmin ( sy [ y ] , d ) ) {
+                        pa [ y ] = x ;
+                    }
+                }
+            } /* SPLIT - HASH */
+            T cut = inf <T >;
+            for (int y = 0; y < n ; y ++)
+                if (! vy [ y ])
+                    chmin ( cut , sy [ y ]) ;
+            for (int j = 0; j < n ; j ++) {
+                if ( vx [ j ]) lx [ j ] -= cut ;
+                if ( vy [ j ]) ly [ j ] += cut ;
+                else sy [ j ] -= cut ;
+            }
+            for (int y = 0; y < n ; y ++)
+            if (! vy [ y ] and sy [ y ] == 0) {
+                if ( my [ y ] == -1)
+                    return aug ( y ) ;
+                vy [ y ] = 1;
+                q . push ( my [ y ]) ;
+            }
         }
-    }
+    };
+    for (int x = 0; x < n ; x ++)
+        lx [ x ] = *max_element(ALL(w[x]));
+    for (int x = 0; x < n ; x ++)
+        bfs ( x ) ;
+    T ans = 0;
+    for (int x = 0; x < n ; x ++)
+        ans += w [ x ][ mx [ x ]];
+    return ans ;
 }
-
 void solve() {
     int n; cin>>n;
     vec<vec<int>> v(n, vec<int>(n));
-    for(int i=0;i<n;i++) for(int j=0;j<n;j++) cin>>v[j][i];
-    int ans = inf<int>;
-    backtrack(n, v, 0, 0, ans);
-    cout<<ans<<endl;
+    for(auto &i: v) {
+        for(auto &j: i) {
+            cin>>j;
+            j = -j;
+        }
+    }
+    cout<<-KM(v)<<endl;
 }
+
 
 int main() {
     fastio;
