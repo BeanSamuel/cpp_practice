@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-20",
   "totals": {
     "headline": 510,
-    "problems": 510,
-    "cppFiles": 524,
+    "problems": 516,
+    "cppFiles": 530,
     "templates": 14,
-    "commits": 562,
+    "commits": 569,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 142,
+    "activeDays": 143,
     "currentStreak": 1,
     "longestStreak": 12
   },
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 155,
+      "count": 161,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -274,9 +274,70 @@
     "2026-08-07": 4,
     "2026-08-10": 11,
     "2026-08-11": 1,
-    "2026-08-18": 1
+    "2026-08-18": 1,
+    "2026-08-20": 6
   },
   "recent": [
+    {
+      "date": "2026-08-20",
+      "sha": "34d1b62",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s668",
+      "path": "zerojudge/s668.cpp"
+    },
+    {
+      "date": "2026-08-20",
+      "sha": "c38ecf1",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s667",
+      "path": "zerojudge/s667.cpp"
+    },
+    {
+      "date": "2026-08-20",
+      "sha": "528d11d",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s666",
+      "path": "zerojudge/s666.cpp"
+    },
+    {
+      "date": "2026-08-20",
+      "sha": "d16bb24",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s669",
+      "path": "zerojudge/s669.cpp"
+    },
+    {
+      "date": "2026-08-20",
+      "sha": "815168b",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s670",
+      "path": "zerojudge/s670.cpp"
+    },
+    {
+      "date": "2026-08-20",
+      "sha": "b5bfae6",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s671",
+      "path": "zerojudge/s671.cpp"
+    },
     {
       "date": "2026-08-18",
       "sha": "7f1cb44",
@@ -456,66 +517,6 @@
       "category": "ZeroJudge",
       "problem": "s672",
       "path": "zerojudge/s672.cpp"
-    },
-    {
-      "date": "2026-08-03",
-      "sha": "3dc9e20",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s673",
-      "path": "zerojudge/s673.cpp"
-    },
-    {
-      "date": "2026-08-03",
-      "sha": "73f4f1d",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s675",
-      "path": "zerojudge/s675.cpp"
-    },
-    {
-      "date": "2026-08-03",
-      "sha": "c2e666c",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s676",
-      "path": "zerojudge/s676.cpp"
-    },
-    {
-      "date": "2026-08-03",
-      "sha": "993d504",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s677",
-      "path": "zerojudge/s677.cpp"
-    },
-    {
-      "date": "2026-08-01",
-      "sha": "bcad167",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "a024",
-      "path": "zerojudge/a024.cpp"
-    },
-    {
-      "date": "2026-08-01",
-      "sha": "6e15e94",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "c202",
-      "path": "zerojudge/c202.cpp"
     }
   ]
 }
