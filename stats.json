@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-27",
   "totals": {
-    "headline": 510,
-    "problems": 516,
-    "cppFiles": 530,
+    "headline": 520,
+    "problems": 522,
+    "cppFiles": 536,
     "templates": 14,
-    "commits": 569,
+    "commits": 576,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 143,
+    "activeDays": 144,
     "currentStreak": 1,
     "longestStreak": 12
   },
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 161,
+      "count": 167,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -275,9 +275,70 @@
     "2026-08-10": 11,
     "2026-08-11": 1,
     "2026-08-18": 1,
-    "2026-08-20": 6
+    "2026-08-20": 6,
+    "2026-08-27": 6
   },
   "recent": [
+    {
+      "date": "2026-08-27",
+      "sha": "3a5a5cd",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s718",
+      "path": "zerojudge/s718.cpp"
+    },
+    {
+      "date": "2026-08-27",
+      "sha": "8c9ad1f",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s717",
+      "path": "zerojudge/s717.cpp"
+    },
+    {
+      "date": "2026-08-27",
+      "sha": "304da69",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s716",
+      "path": "zerojudge/s716.cpp"
+    },
+    {
+      "date": "2026-08-27",
+      "sha": "c3e215b",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s715",
+      "path": "zerojudge/s715.cpp"
+    },
+    {
+      "date": "2026-08-27",
+      "sha": "1cd8b6d",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s714",
+      "path": "zerojudge/s714.cpp"
+    },
+    {
+      "date": "2026-08-27",
+      "sha": "4af63ec",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s713",
+      "path": "zerojudge/s713.cpp"
+    },
     {
       "date": "2026-08-20",
       "sha": "34d1b62",
@@ -457,66 +518,6 @@
       "category": "2024 1",
       "problem": "A",
       "path": "APCS/2024_1/A.cpp"
-    },
-    {
-      "date": "2026-08-10",
-      "sha": "4029dc8",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "b964",
-      "path": "zerojudge/b964.cpp"
-    },
-    {
-      "date": "2026-08-07",
-      "sha": "6c20dca",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Codeforces Round 1112",
-      "problem": "D",
-      "path": "codeforces/Codeforces_Round_1112/D.cpp"
-    },
-    {
-      "date": "2026-08-07",
-      "sha": "df37bf8",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Codeforces Round 1115",
-      "problem": "A",
-      "path": "codeforces/Codeforces_Round_1115/A.cpp"
-    },
-    {
-      "date": "2026-08-07",
-      "sha": "df37bf8",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Codeforces Round 1115",
-      "problem": "B",
-      "path": "codeforces/Codeforces_Round_1115/B.cpp"
-    },
-    {
-      "date": "2026-08-07",
-      "sha": "df37bf8",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Codeforces Round 1115",
-      "problem": "C",
-      "path": "codeforces/Codeforces_Round_1115/C.cpp"
-    },
-    {
-      "date": "2026-08-03",
-      "sha": "893ad9a",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s672",
-      "path": "zerojudge/s672.cpp"
     }
   ]
 }
