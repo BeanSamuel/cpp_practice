@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-09-03",
+  "generatedAt": "2026-09-08",
   "totals": {
-    "headline": 520,
-    "problems": 529,
-    "cppFiles": 543,
+    "headline": 530,
+    "problems": 532,
+    "cppFiles": 546,
     "templates": 14,
-    "commits": 585,
+    "commits": 589,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 145,
+    "activeDays": 146,
     "currentStreak": 1,
     "longestStreak": 12
   },
@@ -50,7 +50,7 @@
       "key": "ytp",
       "emoji": "🏆",
       "name": "YTP",
-      "count": 31,
+      "count": 34,
       "blurb": "Preliminary, Online & Final contests across the years",
       "url": "https://ytp.nchu.edu.tw/"
     },
@@ -277,9 +277,40 @@
     "2026-08-18": 1,
     "2026-08-20": 6,
     "2026-08-27": 6,
-    "2026-09-03": 7
+    "2026-09-03": 7,
+    "2026-09-08": 3
   },
   "recent": [
+    {
+      "date": "2026-09-08",
+      "sha": "16b87bf",
+      "source": "ytp",
+      "sourceName": "YTP",
+      "emoji": "🏆",
+      "category": "YTP2026PreliminaryContest J1",
+      "problem": "3",
+      "path": "YTP/YTP2026PreliminaryContest_J1/3.cpp"
+    },
+    {
+      "date": "2026-09-08",
+      "sha": "f624d3d",
+      "source": "ytp",
+      "sourceName": "YTP",
+      "emoji": "🏆",
+      "category": "YTP2026PreliminaryContest J1",
+      "problem": "2",
+      "path": "YTP/YTP2026PreliminaryContest_J1/2.cpp"
+    },
+    {
+      "date": "2026-09-08",
+      "sha": "94f81bd",
+      "source": "ytp",
+      "sourceName": "YTP",
+      "emoji": "🏆",
+      "category": "YTP2026PreliminaryContest J1",
+      "problem": "1",
+      "path": "YTP/YTP2026PreliminaryContest_J1/1.cpp"
+    },
     {
       "date": "2026-09-03",
       "sha": "7fa95dc",
@@ -489,36 +520,6 @@
       "category": "ZeroJudge",
       "problem": "s641",
       "path": "zerojudge/s641.cpp"
-    },
-    {
-      "date": "2026-08-10",
-      "sha": "714c281",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s640",
-      "path": "zerojudge/s640.cpp"
-    },
-    {
-      "date": "2026-08-10",
-      "sha": "c476ad5",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s638",
-      "path": "zerojudge/s638.cpp"
-    },
-    {
-      "date": "2026-08-10",
-      "sha": "9c52fb5",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s639",
-      "path": "zerojudge/s639.cpp"
     }
   ]
 }
