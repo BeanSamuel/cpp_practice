@@ -3,10 +3,10 @@
   "generatedAt": "2026-09-17",
   "totals": {
     "headline": 550,
-    "problems": 550,
-    "cppFiles": 564,
+    "problems": 554,
+    "cppFiles": 568,
     "templates": 14,
-    "commits": 608,
+    "commits": 613,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 151,
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 188,
+      "count": 192,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -283,9 +283,49 @@
     "2026-09-10": 6,
     "2026-09-11": 1,
     "2026-09-15": 1,
-    "2026-09-17": 6
+    "2026-09-17": 10
   },
   "recent": [
+    {
+      "date": "2026-09-17",
+      "sha": "eb086e9",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s646",
+      "path": "zerojudge/s646.cpp"
+    },
+    {
+      "date": "2026-09-17",
+      "sha": "57209bd",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s648",
+      "path": "zerojudge/s648.cpp"
+    },
+    {
+      "date": "2026-09-17",
+      "sha": "8637502",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s650",
+      "path": "zerojudge/s650.cpp"
+    },
+    {
+      "date": "2026-09-17",
+      "sha": "44735be",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s652",
+      "path": "zerojudge/s652.cpp"
+    },
     {
       "date": "2026-09-17",
       "sha": "9466dba",
@@ -485,46 +525,6 @@
       "category": "YTP2026PreliminaryContest J1",
       "problem": "2",
       "path": "YTP/YTP2026PreliminaryContest_J1/2.cpp"
-    },
-    {
-      "date": "2026-09-08",
-      "sha": "94f81bd",
-      "source": "ytp",
-      "sourceName": "YTP",
-      "emoji": "🏆",
-      "category": "YTP2026PreliminaryContest J1",
-      "problem": "1",
-      "path": "YTP/YTP2026PreliminaryContest_J1/1.cpp"
-    },
-    {
-      "date": "2026-09-03",
-      "sha": "7fa95dc",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s683",
-      "path": "zerojudge/s683.cpp"
-    },
-    {
-      "date": "2026-09-03",
-      "sha": "f7d3856",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s684",
-      "path": "zerojudge/s684.cpp"
-    },
-    {
-      "date": "2026-09-03",
-      "sha": "a338220",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s765",
-      "path": "zerojudge/s765.cpp"
     }
   ]
 }
