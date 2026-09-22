@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-09-17",
+  "generatedAt": "2026-09-22",
   "totals": {
     "headline": 550,
-    "problems": 554,
-    "cppFiles": 568,
+    "problems": 555,
+    "cppFiles": 569,
     "templates": 14,
-    "commits": 615,
+    "commits": 617,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 151,
+    "activeDays": 152,
     "currentStreak": 1,
     "longestStreak": 12
   },
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 192,
+      "count": 193,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -283,12 +283,23 @@
     "2026-09-10": 6,
     "2026-09-11": 1,
     "2026-09-15": 1,
-    "2026-09-17": 10
+    "2026-09-17": 10,
+    "2026-09-22": 1
   },
   "recent": [
     {
+      "date": "2026-09-22",
+      "sha": "c872fb4",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "i645",
+      "path": "zerojudge/i645.cpp"
+    },
+    {
       "date": "2026-09-17",
-      "sha": "eb086e9",
+      "sha": "65d8adf",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -298,7 +309,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "57209bd",
+      "sha": "ab58050",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -308,7 +319,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "8637502",
+      "sha": "0f68615",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -318,7 +329,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "44735be",
+      "sha": "3f6f144",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -328,7 +339,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "9466dba",
+      "sha": "ba19933",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -338,7 +349,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "0ade964",
+      "sha": "db08b12",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -348,7 +359,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "71c8b0e",
+      "sha": "a01748b",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -358,7 +369,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "78a1f5e",
+      "sha": "101e311",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -368,7 +379,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "9078ec3",
+      "sha": "ba41df4",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -378,7 +389,7 @@
     },
     {
       "date": "2026-09-17",
-      "sha": "012dab1",
+      "sha": "f161c3c",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -388,7 +399,7 @@
     },
     {
       "date": "2026-09-15",
-      "sha": "88eac1e",
+      "sha": "98a88fe",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -398,7 +409,7 @@
     },
     {
       "date": "2026-09-11",
-      "sha": "1d6ee99",
+      "sha": "a0d3e45",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -408,7 +419,7 @@
     },
     {
       "date": "2026-09-10",
-      "sha": "c76283b",
+      "sha": "3a02166",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -418,7 +429,7 @@
     },
     {
       "date": "2026-09-10",
-      "sha": "9cc9b9c",
+      "sha": "986f6d3",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -428,7 +439,7 @@
     },
     {
       "date": "2026-09-10",
-      "sha": "874df88",
+      "sha": "7c2198a",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -438,7 +449,7 @@
     },
     {
       "date": "2026-09-10",
-      "sha": "c4043da",
+      "sha": "5d46d8c",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -448,7 +459,7 @@
     },
     {
       "date": "2026-09-10",
-      "sha": "b8f4938",
+      "sha": "970d25f",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -458,7 +469,7 @@
     },
     {
       "date": "2026-09-10",
-      "sha": "97fcd7a",
+      "sha": "fd7ef9a",
       "source": "zerojudge",
       "sourceName": "ZeroJudge",
       "emoji": "🏯",
@@ -468,7 +479,7 @@
     },
     {
       "date": "2026-09-09",
-      "sha": "d955308",
+      "sha": "b0cd177",
       "source": "codeforces",
       "sourceName": "Codeforces",
       "emoji": "⚔️",
@@ -478,7 +489,7 @@
     },
     {
       "date": "2026-09-09",
-      "sha": "d955308",
+      "sha": "b0cd177",
       "source": "codeforces",
       "sourceName": "Codeforces",
       "emoji": "⚔️",
@@ -488,7 +499,7 @@
     },
     {
       "date": "2026-09-09",
-      "sha": "d955308",
+      "sha": "b0cd177",
       "source": "codeforces",
       "sourceName": "Codeforces",
       "emoji": "⚔️",
@@ -498,7 +509,7 @@
     },
     {
       "date": "2026-09-09",
-      "sha": "d955308",
+      "sha": "b0cd177",
       "source": "codeforces",
       "sourceName": "Codeforces",
       "emoji": "⚔️",
@@ -508,23 +519,13 @@
     },
     {
       "date": "2026-09-08",
-      "sha": "16b87bf",
+      "sha": "167aedc",
       "source": "ytp",
       "sourceName": "YTP",
       "emoji": "🏆",
       "category": "YTP2026PreliminaryContest J1",
       "problem": "3",
       "path": "YTP/YTP2026PreliminaryContest_J1/3.cpp"
-    },
-    {
-      "date": "2026-09-08",
-      "sha": "f624d3d",
-      "source": "ytp",
-      "sourceName": "YTP",
-      "emoji": "🏆",
-      "category": "YTP2026PreliminaryContest J1",
-      "problem": "2",
-      "path": "YTP/YTP2026PreliminaryContest_J1/2.cpp"
     }
   ]
 }
