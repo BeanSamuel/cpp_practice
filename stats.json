@@ -1,16 +1,16 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-09-22",
+  "generatedAt": "2026-10-01",
   "totals": {
     "headline": 550,
-    "problems": 557,
-    "cppFiles": 571,
+    "problems": 559,
+    "cppFiles": 573,
     "templates": 14,
-    "commits": 620,
+    "commits": 623,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 152,
-    "currentStreak": 1,
+    "activeDays": 153,
+    "currentStreak": 0,
     "longestStreak": 12
   },
   "sources": [
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 195,
+      "count": 197,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -284,9 +284,30 @@
     "2026-09-11": 1,
     "2026-09-15": 1,
     "2026-09-17": 10,
-    "2026-09-22": 3
+    "2026-09-22": 3,
+    "2026-09-29": 2
   },
   "recent": [
+    {
+      "date": "2026-09-29",
+      "sha": "67bcf9d",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s720",
+      "path": "zerojudge/s720.cpp"
+    },
+    {
+      "date": "2026-09-29",
+      "sha": "5e9d3c6",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s719",
+      "path": "zerojudge/s719.cpp"
+    },
     {
       "date": "2026-09-22",
       "sha": "a1e0060",
@@ -506,26 +527,6 @@
       "category": "Educational Codeforces Round 194",
       "problem": "A",
       "path": "codeforces/Educational_Codeforces_Round_194/A.cpp"
-    },
-    {
-      "date": "2026-09-09",
-      "sha": "b0cd177",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Educational Codeforces Round 194",
-      "problem": "B",
-      "path": "codeforces/Educational_Codeforces_Round_194/B.cpp"
-    },
-    {
-      "date": "2026-09-09",
-      "sha": "b0cd177",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Educational Codeforces Round 194",
-      "problem": "C",
-      "path": "codeforces/Educational_Codeforces_Round_194/C.cpp"
     }
   ]
 }
