@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-10-01",
+  "generatedAt": "2026-10-04",
   "totals": {
-    "headline": 550,
-    "problems": 559,
-    "cppFiles": 573,
+    "headline": 560,
+    "problems": 561,
+    "cppFiles": 575,
     "templates": 14,
-    "commits": 623,
+    "commits": 626,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 153,
+    "activeDays": 154,
     "currentStreak": 0,
     "longestStreak": 12
   },
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 197,
+      "count": 199,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -285,9 +285,30 @@
     "2026-09-15": 1,
     "2026-09-17": 10,
     "2026-09-22": 3,
-    "2026-09-29": 2
+    "2026-09-29": 2,
+    "2026-10-01": 2
   },
   "recent": [
+    {
+      "date": "2026-10-01",
+      "sha": "9d2e810",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s721",
+      "path": "zerojudge/s721.cpp"
+    },
+    {
+      "date": "2026-10-01",
+      "sha": "1cdbefb",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s723",
+      "path": "zerojudge/s723.cpp"
+    },
     {
       "date": "2026-09-29",
       "sha": "67bcf9d",
@@ -507,26 +528,6 @@
       "category": "ZeroJudge",
       "problem": "s629",
       "path": "zerojudge/s629.cpp"
-    },
-    {
-      "date": "2026-09-10",
-      "sha": "fd7ef9a",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s630",
-      "path": "zerojudge/s630.cpp"
-    },
-    {
-      "date": "2026-09-09",
-      "sha": "b0cd177",
-      "source": "codeforces",
-      "sourceName": "Codeforces",
-      "emoji": "⚔️",
-      "category": "Educational Codeforces Round 194",
-      "problem": "A",
-      "path": "codeforces/Educational_Codeforces_Round_194/A.cpp"
     }
   ]
 }
