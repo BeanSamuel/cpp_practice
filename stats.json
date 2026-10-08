@@ -1,16 +1,16 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-10-04",
+  "generatedAt": "2026-10-08",
   "totals": {
     "headline": 560,
-    "problems": 561,
-    "cppFiles": 575,
+    "problems": 562,
+    "cppFiles": 576,
     "templates": 14,
-    "commits": 626,
+    "commits": 628,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 154,
-    "currentStreak": 0,
+    "activeDays": 155,
+    "currentStreak": 1,
     "longestStreak": 12
   },
   "sources": [
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 94,
+      "count": 95,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,7 +80,7 @@
     }
   ],
   "cses": {
-    "total": 94,
+    "total": 95,
     "categories": [
       {
         "name": "Sorting and Searching",
@@ -96,7 +96,7 @@
       },
       {
         "name": "Graph Algorithms",
-        "count": 9
+        "count": 10
       },
       {
         "name": "Mathematics",
@@ -286,9 +286,20 @@
     "2026-09-17": 10,
     "2026-09-22": 3,
     "2026-09-29": 2,
-    "2026-10-01": 2
+    "2026-10-01": 2,
+    "2026-10-08": 1
   },
   "recent": [
+    {
+      "date": "2026-10-08",
+      "sha": "df8dc4d",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Graph Algorithms",
+      "problem": "High_Score",
+      "path": "CSES/Graph_Algorithms/High_Score.cpp"
+    },
     {
       "date": "2026-10-01",
       "sha": "9d2e810",
@@ -518,16 +529,6 @@
       "category": "ZeroJudge",
       "problem": "s628",
       "path": "zerojudge/s628.cpp"
-    },
-    {
-      "date": "2026-09-10",
-      "sha": "970d25f",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s629",
-      "path": "zerojudge/s629.cpp"
     }
   ]
 }
