@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-10",
   "totals": {
     "headline": 560,
-    "problems": 562,
-    "cppFiles": 576,
+    "problems": 564,
+    "cppFiles": 578,
     "templates": 14,
-    "commits": 628,
+    "commits": 631,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 155,
+    "activeDays": 156,
     "currentStreak": 1,
     "longestStreak": 12
   },
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 95,
+      "count": 97,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,7 +80,7 @@
     }
   ],
   "cses": {
-    "total": 95,
+    "total": 97,
     "categories": [
       {
         "name": "Sorting and Searching",
@@ -96,7 +96,7 @@
       },
       {
         "name": "Graph Algorithms",
-        "count": 10
+        "count": 12
       },
       {
         "name": "Mathematics",
@@ -287,9 +287,30 @@
     "2026-09-22": 3,
     "2026-09-29": 2,
     "2026-10-01": 2,
-    "2026-10-08": 1
+    "2026-10-08": 1,
+    "2026-10-10": 2
   },
   "recent": [
+    {
+      "date": "2026-10-10",
+      "sha": "015031b",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Graph Algorithms",
+      "problem": "Planets_Cycles",
+      "path": "CSES/Graph_Algorithms/Planets_Cycles.cpp"
+    },
+    {
+      "date": "2026-10-10",
+      "sha": "aef9f4a",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Graph Algorithms",
+      "problem": "Road_Construction",
+      "path": "CSES/Graph_Algorithms/Road_Construction.cpp"
+    },
     {
       "date": "2026-10-08",
       "sha": "df8dc4d",
@@ -509,26 +530,6 @@
       "category": "ZeroJudge",
       "problem": "s632",
       "path": "zerojudge/s632.cpp"
-    },
-    {
-      "date": "2026-09-10",
-      "sha": "7c2198a",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s633",
-      "path": "zerojudge/s633.cpp"
-    },
-    {
-      "date": "2026-09-10",
-      "sha": "5d46d8c",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s628",
-      "path": "zerojudge/s628.cpp"
     }
   ]
 }

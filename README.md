@@ -12,8 +12,8 @@ If you're looking for elegant solutions, you're in the wrong place. But if you e
 | Stat | Value |
 |------|------:|
 | 🧩 Problems suffered through | **560+** |
-| 📝 Total `.cpp` files (incl. templates) | **576** |
-| 💾 Commits of regret | **628** |
+| 📝 Total `.cpp` files (incl. templates) | **578** |
+| 💾 Commits of regret | **631** |
 | 📅 In the trenches since | **2025-04-20** |
 | 🗂️ Judges & contest archives | **8** |
 | 🛠️ Battle-tested templates | **14** |
@@ -26,7 +26,7 @@ A curated tour of the online judges and contest archives that have personally wr
 |--------|-------:|------------|
 | 🏯 ZeroJudge | 199 | Taiwan's finest gauntlet of WA verdicts |
 | ⚔️ Codeforces | 140 | Rounds, Educational & ICPC regionals — the daily grind |
-| 🇫🇮 CSES | 95 | The classic problem set, one category at a time (see below) |
+| 🇫🇮 CSES | 97 | The classic problem set, one category at a time (see below) |
 | 🎓 APCS | 41 | Real exam past papers + simulations |
 | 🏆 YTP | 34 | Preliminary, Online & Final contests across the years |
 | 🟧 LeetCode | 27 | For when I want to feel briefly competent |
@@ -40,7 +40,7 @@ Because finishing the whole set is a personality trait I'm *aspiring* to:
 | Category | ✓ | Category | ✓ |
 |----------|--:|----------|--:|
 | Sorting and Searching | 27 | Dynamic Programming | 14 |
-| Introductory Problems | 13 | Graph Algorithms | 10 |
+| Introductory Problems | 13 | Graph Algorithms | 12 |
 | Mathematics | 8 | Range Queries | 7 |
 | Sliding Window Problems | 7 | Geometry | 4 |
 | Additional Problems II | 2 | Additional Problems I | 1 |
@@ -50,7 +50,7 @@ Because finishing the whole set is a personality trait I'm *aspiring* to:
 
 14 templates I copy-paste at 3 AM and pray they still work — segment trees, BITs, treaps, tries, string algorithms, geometry, and more.
 
-<sub>📈 Auto-updated on every push · last refreshed 2026-10-08 (UTC)</sub>
+<sub>📈 Auto-updated on every push · last refreshed 2026-10-10 (UTC)</sub>
 <!-- STATS:END -->
 
 ## Warning ⚠️
