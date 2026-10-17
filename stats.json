@@ -1,16 +1,16 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-17",
   "totals": {
     "headline": 570,
-    "problems": 573,
-    "cppFiles": 587,
+    "problems": 575,
+    "cppFiles": 589,
     "templates": 14,
-    "commits": 641,
+    "commits": 644,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 158,
-    "currentStreak": 1,
+    "activeDays": 159,
+    "currentStreak": 2,
     "longestStreak": 12
   },
   "sources": [
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 208,
+      "count": 210,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -290,9 +290,30 @@
     "2026-10-08": 1,
     "2026-10-10": 5,
     "2026-10-11": 3,
-    "2026-10-17": 3
+    "2026-10-17": 3,
+    "2026-10-18": 2
   },
   "recent": [
+    {
+      "date": "2026-10-18",
+      "sha": "0470af5",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "t155",
+      "path": "zerojudge/t155.cpp"
+    },
+    {
+      "date": "2026-10-18",
+      "sha": "5f0a3ed",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "t152",
+      "path": "zerojudge/t152.cpp"
+    },
     {
       "date": "2026-10-17",
       "sha": "de8ff80",
@@ -512,26 +533,6 @@
       "category": "ZeroJudge",
       "problem": "s650",
       "path": "zerojudge/s650.cpp"
-    },
-    {
-      "date": "2026-09-17",
-      "sha": "3f6f144",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s652",
-      "path": "zerojudge/s652.cpp"
-    },
-    {
-      "date": "2026-09-17",
-      "sha": "ba19933",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s643",
-      "path": "zerojudge/s643.cpp"
     }
   ]
 }
