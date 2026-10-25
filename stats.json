@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-10-17",
+  "generatedAt": "2026-10-25",
   "totals": {
     "headline": 570,
-    "problems": 575,
-    "cppFiles": 589,
+    "problems": 579,
+    "cppFiles": 593,
     "templates": 14,
-    "commits": 644,
+    "commits": 649,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 159,
+    "activeDays": 161,
     "currentStreak": 2,
     "longestStreak": 12
   },
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 210,
+      "count": 212,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 97,
+      "count": 99,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,7 +80,7 @@
     }
   ],
   "cses": {
-    "total": 97,
+    "total": 99,
     "categories": [
       {
         "name": "Sorting and Searching",
@@ -88,7 +88,7 @@
       },
       {
         "name": "Dynamic Programming",
-        "count": 14
+        "count": 16
       },
       {
         "name": "Introductory Problems",
@@ -291,9 +291,51 @@
     "2026-10-10": 5,
     "2026-10-11": 3,
     "2026-10-17": 3,
-    "2026-10-18": 2
+    "2026-10-18": 2,
+    "2026-10-24": 2,
+    "2026-10-25": 2
   },
   "recent": [
+    {
+      "date": "2026-10-25",
+      "sha": "acb8e2c",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s623",
+      "path": "zerojudge/s623.cpp"
+    },
+    {
+      "date": "2026-10-25",
+      "sha": "e28a617",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "s609",
+      "path": "zerojudge/s609.cpp"
+    },
+    {
+      "date": "2026-10-24",
+      "sha": "a755e38",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Dynamic Programming",
+      "problem": "Removal_Game",
+      "path": "CSES/Dynamic_Programming/Removal_Game.cpp"
+    },
+    {
+      "date": "2026-10-24",
+      "sha": "838c872",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Dynamic Programming",
+      "problem": "Minimal_Grid_Path",
+      "path": "CSES/Dynamic_Programming/Minimal_Grid_Path.cpp"
+    },
     {
       "date": "2026-10-18",
       "sha": "0470af5",
@@ -493,46 +535,6 @@
       "category": "ZeroJudge",
       "problem": "i646",
       "path": "zerojudge/i646.cpp"
-    },
-    {
-      "date": "2026-09-22",
-      "sha": "c872fb4",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "i645",
-      "path": "zerojudge/i645.cpp"
-    },
-    {
-      "date": "2026-09-17",
-      "sha": "65d8adf",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s646",
-      "path": "zerojudge/s646.cpp"
-    },
-    {
-      "date": "2026-09-17",
-      "sha": "ab58050",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s648",
-      "path": "zerojudge/s648.cpp"
-    },
-    {
-      "date": "2026-09-17",
-      "sha": "0f68615",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s650",
-      "path": "zerojudge/s650.cpp"
     }
   ]
 }
