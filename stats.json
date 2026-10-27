@@ -1,15 +1,15 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-10-25",
+  "generatedAt": "2026-10-27",
   "totals": {
-    "headline": 570,
-    "problems": 579,
-    "cppFiles": 593,
+    "headline": 580,
+    "problems": 581,
+    "cppFiles": 595,
     "templates": 14,
-    "commits": 649,
+    "commits": 652,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 161,
+    "activeDays": 163,
     "currentStreak": 2,
     "longestStreak": 12
   },
@@ -34,7 +34,7 @@
       "key": "cses",
       "emoji": "🇫🇮",
       "name": "CSES",
-      "count": 99,
+      "count": 101,
       "blurb": "The classic problem set, one category at a time (see below)",
       "url": "https://cses.fi/problemset/"
     },
@@ -80,7 +80,7 @@
     }
   ],
   "cses": {
-    "total": 99,
+    "total": 101,
     "categories": [
       {
         "name": "Sorting and Searching",
@@ -88,7 +88,7 @@
       },
       {
         "name": "Dynamic Programming",
-        "count": 16
+        "count": 18
       },
       {
         "name": "Introductory Problems",
@@ -293,9 +293,31 @@
     "2026-10-17": 3,
     "2026-10-18": 2,
     "2026-10-24": 2,
-    "2026-10-25": 2
+    "2026-10-25": 2,
+    "2026-10-27": 1,
+    "2026-10-28": 1
   },
   "recent": [
+    {
+      "date": "2026-10-28",
+      "sha": "4cab53e",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Dynamic Programming",
+      "problem": "Mountain_Range",
+      "path": "CSES/Dynamic_Programming/Mountain_Range.cpp"
+    },
+    {
+      "date": "2026-10-27",
+      "sha": "3849b17",
+      "source": "cses",
+      "sourceName": "CSES",
+      "emoji": "🇫🇮",
+      "category": "Dynamic Programming",
+      "problem": "Two_Sets_II",
+      "path": "CSES/Dynamic_Programming/Two_Sets_II.cpp"
+    },
     {
       "date": "2026-10-25",
       "sha": "acb8e2c",
@@ -515,26 +537,6 @@
       "category": "ZeroJudge",
       "problem": "s719",
       "path": "zerojudge/s719.cpp"
-    },
-    {
-      "date": "2026-09-22",
-      "sha": "a1e0060",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "d453",
-      "path": "zerojudge/d453.cpp"
-    },
-    {
-      "date": "2026-09-22",
-      "sha": "3b247ec",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "i646",
-      "path": "zerojudge/i646.cpp"
     }
   ]
 }
