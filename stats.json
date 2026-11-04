@@ -1,16 +1,16 @@
 {
   "repo": "BeanSamuel/cpp_practice",
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "totals": {
     "headline": 580,
-    "problems": 586,
-    "cppFiles": 600,
+    "problems": 587,
+    "cppFiles": 601,
     "templates": 14,
-    "commits": 658,
+    "commits": 660,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
-    "activeDays": 165,
-    "currentStreak": 1,
+    "activeDays": 166,
+    "currentStreak": 2,
     "longestStreak": 12
   },
   "sources": [
@@ -42,7 +42,7 @@
       "key": "apcs",
       "emoji": "🎓",
       "name": "APCS",
-      "count": 44,
+      "count": 45,
       "blurb": "Real exam past papers + simulations",
       "url": "https://apcs.csie.ntnu.edu.tw/"
     },
@@ -297,9 +297,20 @@
     "2026-10-27": 1,
     "2026-10-28": 1,
     "2026-10-29": 2,
-    "2026-11-03": 3
+    "2026-11-03": 3,
+    "2026-11-04": 1
   },
   "recent": [
+    {
+      "date": "2026-11-04",
+      "sha": "ce47237",
+      "source": "apcs",
+      "sourceName": "APCS",
+      "emoji": "🎓",
+      "category": "2026 11 High Intermediate",
+      "problem": "B",
+      "path": "APCS/2026_11_High_Intermediate/B.cpp"
+    },
     {
       "date": "2026-11-03",
       "sha": "3800e94",
@@ -529,16 +540,6 @@
       "category": "Graph Algorithms",
       "problem": "Planets_Cycles",
       "path": "CSES/Graph_Algorithms/Planets_Cycles.cpp"
-    },
-    {
-      "date": "2026-10-10",
-      "sha": "aef9f4a",
-      "source": "cses",
-      "sourceName": "CSES",
-      "emoji": "🇫🇮",
-      "category": "Graph Algorithms",
-      "problem": "Road_Construction",
-      "path": "CSES/Graph_Algorithms/Road_Construction.cpp"
     }
   ]
 }
