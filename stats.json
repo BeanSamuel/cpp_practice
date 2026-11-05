@@ -3,10 +3,10 @@
   "generatedAt": "2026-11-05",
   "totals": {
     "headline": 590,
-    "problems": 592,
-    "cppFiles": 606,
+    "problems": 594,
+    "cppFiles": 608,
     "templates": 14,
-    "commits": 666,
+    "commits": 669,
     "sourceCount": 8,
     "firstDate": "2025-04-20",
     "activeDays": 167,
@@ -18,7 +18,7 @@
       "key": "zerojudge",
       "emoji": "🏯",
       "name": "ZeroJudge",
-      "count": 219,
+      "count": 221,
       "blurb": "Taiwan's finest gauntlet of WA verdicts",
       "url": "https://zerojudge.tw/"
     },
@@ -299,9 +299,29 @@
     "2026-10-29": 2,
     "2026-11-03": 3,
     "2026-11-04": 1,
-    "2026-11-05": 5
+    "2026-11-05": 7
   },
   "recent": [
+    {
+      "date": "2026-11-05",
+      "sha": "bc01a68",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "t068",
+      "path": "zerojudge/t068.cpp"
+    },
+    {
+      "date": "2026-11-05",
+      "sha": "cca9beb",
+      "source": "zerojudge",
+      "sourceName": "ZeroJudge",
+      "emoji": "🏯",
+      "category": "ZeroJudge",
+      "problem": "t154",
+      "path": "zerojudge/t154.cpp"
+    },
     {
       "date": "2026-11-05",
       "sha": "ae1389f",
@@ -521,26 +541,6 @@
       "category": "ZeroJudge",
       "problem": "t090",
       "path": "zerojudge/t090.cpp"
-    },
-    {
-      "date": "2026-10-11",
-      "sha": "437a393",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s607",
-      "path": "zerojudge/s607.cpp"
-    },
-    {
-      "date": "2026-10-11",
-      "sha": "1044c2e",
-      "source": "zerojudge",
-      "sourceName": "ZeroJudge",
-      "emoji": "🏯",
-      "category": "ZeroJudge",
-      "problem": "s618",
-      "path": "zerojudge/s618.cpp"
     }
   ]
 }
