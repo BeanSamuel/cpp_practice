@@ -13,7 +13,7 @@ If you're looking for elegant solutions, you're in the wrong place. But if you e
 |------|------:|
 | 🧩 Problems suffered through | **590+** |
 | 📝 Total `.cpp` files (incl. templates) | **608** |
-| 💾 Commits of regret | **669** |
+| 💾 Commits of regret | **671** |
 | 📅 In the trenches since | **2025-04-20** |
 | 🗂️ Judges & contest archives | **8** |
 | 🛠️ Battle-tested templates | **14** |
@@ -50,7 +50,7 @@ Because finishing the whole set is a personality trait I'm *aspiring* to:
 
 14 templates I copy-paste at 3 AM and pray they still work — segment trees, BITs, treaps, tries, string algorithms, geometry, and more.
 
-<sub>📈 Auto-updated on every push · last refreshed 2026-11-05 (UTC)</sub>
+<sub>📈 Auto-updated on every push · last refreshed 2026-11-19 (UTC)</sub>
 <!-- STATS:END -->
 
 ## Warning ⚠️
