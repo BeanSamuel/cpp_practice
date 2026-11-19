@@ -31,69 +31,71 @@ const int MXN = 1e8; const int N = MXN + 10;
 
 using namespace std;
 
-// 單點更新 + 區間查詢
+// 單點更新 + 區間查詢 1-based
 struct Binary_Indexed_Tree { 
     int n;
     vec<ll> bit;
 
-    Binary_Indexed_Tree(int _n) {
-        n = _n + 1;
+    static int lowbit(int x) { return x&-x; }
+
+    Binary_Indexed_Tree(const vec<ll> &v) { //O(n)
+        n = siz(v)+1;
         bit.resize(n, 0);
+        for(int i=1;i<n;i++) {
+            bit[i] += v[i-1];
+            int j = i+lowbit(i);
+            if(j<n) bit[j]+=bit[i];
+        }
     }
 
-    int lowbit(int x) {
-        return x&-x;
-    }
-
-    void update(int x, int val) {
+    void update(int x, ll val) { //O(logn)
         for(; x<n; x+=lowbit(x)) {
             bit[x] += val;
         }
     }
 
-    ll query(int x) {
+    ll query(int x) { //O(logn)
         ll ret = 0;
         for(; x>0; x-=lowbit(x)) {
             ret += bit[x];
         }
         return ret;
     }
-
 };
 
 // 區間更新 + 單點查詢(差分)
-template<typename T>
-class Fenwick {
-private:
+struct Binary_Indexed_Tree { 
     int n;
-    vec<T> bit;
+    vec<ll> bit;
+
     static int lowbit(int x) { return x&-x; }
 
-public:
-    explicit Fenwick(int _n)
-        : n(_n), bit(n+1, T(0)) {}
-    
-    explicit Fenwick(const vec<T>& a)
-        : Fenwick((int)a.size() - 1) {
-            for(int i=1;i<=n;i++) range_update(i,i,a[i]);
-        }
-
-    void update(int idx, T val) {
-        for(int i=idx;i<=n;i+=lowbit(i)) {
-            bit[i] += val;
+    Binary_Indexed_Tree(const vec<ll> &v) { //O(n)
+        n = siz(v)+1;
+        bit.resize(n, 0);
+        for(int i=1;i<n;i++) {
+            bit[i] += a[i-1] - (i > 1 ? v[i-2] : 0);
+            int j = i + lowbit(i);
+            if(j < n) bit[j] += bit[i];
         }
     }
-    void range_update(int l, int r, T val) {
+
+    void update(int x, ll val) {
+        for(; x<n; x+=lowbit(x)) {
+            bit[x] += val;
+        }
+    }
+
+    void range_update(int l, int r, ll val) { //O(logn)
         update(l, val);
         update(r+1, -val);
     }
 
-    T query(int idx) { 
-        T ret = 0;
-        for(;idx>0;idx-=lowbit(idx)) {
-            ret += bit[idx];
+    ll query(int x) { //O(logn)
+        ll ret = 0;
+        for(; x>0; x-=lowbit(x)) {
+            ret += bit[x];
         }
         return ret;
     }
-
 };
